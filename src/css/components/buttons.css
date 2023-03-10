@@ -1,0 +1,12 @@
+.btn-common {
+    display: inline-block;
+    border: none;
+    border-radius: 38px;
+    background-color: var(--color-decor);
+    font-family: inherit;
+    cursor: pointer;
+    color: var(--color-white);
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+  }
