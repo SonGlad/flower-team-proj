@@ -1,5 +1,12 @@
 /* section Blog (start) */
 
+     /* на время  */
+.title-common:after{
+    display: none; 
+}
+    /* на время */
+
+
 .blog .blog-inner{
     padding: 122px 0 101px;
 }
@@ -20,6 +27,10 @@
     font-family: 'Montserrat';
     max-width: 280px;
     padding: 20px 10px;
+}
+
+@media screen and (min-width: 480px) {
+
 }
 
 /* section Blog (end) */
