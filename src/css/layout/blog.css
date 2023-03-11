@@ -1,9 +1,9 @@
 /* section Blog (start) */
 
      /* на время  */
-.title-common:after{
+/* .title-common:after{
     display: none; 
-}
+} */
     /* на время */
 
 
@@ -17,20 +17,37 @@
     align-items: center;
 }
 .blog .follow-text{
-    font-family: 'Montserrat';
     font-weight: 500;
-    font-size: 32px;
-    line-height: 1.22;
-    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: calc(22 / 18);
+    margin-bottom: 24px;
 }
+
+@media screen and (min-width: 768px){
+    .blog .follow-text{
+        font-size: 32px;
+        line-height: calc(39 / 32);
+        margin-bottom: 32px;
+    }
+}
+
 .blog .follow-btn{
-    font-family: 'Montserrat';
     max-width: 280px;
     padding: 20px 10px;
 }
 
-@media screen and (min-width: 480px) {
 
+
+.blog .follow-btn:hover{
+    background-color: var(--color-decor-hover);
+}
+.blog .follow-btn:focus{
+    background-color: var(--color-decor-focus);
 }
 
 /* section Blog (end) */
+
+
+
+
+
