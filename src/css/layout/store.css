@@ -1,0 +1,49 @@
+/* Section */
+:root {
+  --indent: 16px;
+  --value: 2;
+}
+.store-section {
+  margin-bottom: 60px;
+}
+/* Title */
+.title-store {
+  margin-bottom: 32px;
+}
+/* Store List */
+.store-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+.store-item {
+  width: calc((100% - var(--indent)) / var(--value));
+}
+.store-item-img {
+}
+.store-content {
+  margin-top: 12px;
+}
+.store-item-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  color: #000000;
+  margin-bottom: 6px;
+}
+.store-item-desc {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+  color: #000000;
+  opacity: 0.6;
+}
+/* Store Button */
+.store-btn {
+  display: block;
+  width: 208px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 14px 28px;
+}
