@@ -10,3 +10,10 @@
     text-align: center;
     width: 100%;
   }
+
+.blog .follow-btn:hover{
+    background-color: var(--color-decor-hover);
+}
+.blog .follow-btn:focus{
+    background-color: var(--color-decor-focus);
+}
