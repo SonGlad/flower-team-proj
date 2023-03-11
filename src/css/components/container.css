@@ -11,12 +11,12 @@
  @media screen and (min-width: 768px) {
      .container{
          max-width: 720px;
+         padding: 0 24px
      }
  }
  
  @media screen and (min-width: 1280px) {
      .container{
          max-width: 1232px;
-         padding: 0 24px
      }
  }
