@@ -1,0 +1,53 @@
+<section class="hero-section" id="hero-section">
+  <div class="container hero-container">
+    <h1 class="page-title">Anemone</h1>
+    <p
+      class="hero-badge"
+      style="--shift-from-x: 0; --shift-to-x: -90px; --shift-to-y: 170px"
+    >
+      flower studio
+    </p>
+    <img
+      srcset="
+        ../img/hero/hero-img-mobile.png 145w,
+        ../img/hero/hero-img-tablet.png 390w
+      "
+      sizes="(min-width:768px) 390px,(max-width:767px) 145px, 100vw"
+      class="hero-image_adaptive"
+      src="../img/hero/image_home page.png"
+      alt="Flower on a grey background"
+      min-width="145"
+    />
+
+    <button class="hero-button" type="button">
+      <svg width="76" height="76" class="hero-button-svg">
+        <use
+          href="../img/icons/icons.svg#hero-icon-arrow"
+          class="hero-icon-arrow"
+        ></use>
+        <use
+          href="../img/icons/icons.svg#hero-btn-text"
+          class="hero-icon-text"
+        ></use>
+      </svg>
+      <svg width="145" height="150" class="hero-button-svg_tablet">
+        <use
+          href="../img/icons/icons.svg#icon-tab_btn_text"
+          class="hero-icon-text_tablet"
+        ></use>
+        <use
+          href="../img/icons/icons.svg#icon-tab_btn_errow"
+          class="hero-icon-arrow_tablet"
+        ></use>
+      </svg>
+    </button>
+  </div>
+  <div class="img-transition">
+    <img
+      src="../img/hero/hero-img.jpg"
+      alt="Flower on a grey background"
+      class="hero-image"
+      width="768"
+    />
+  </div>
+</section>
