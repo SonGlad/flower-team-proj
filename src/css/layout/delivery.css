@@ -1,9 +1,13 @@
 
+.qwerty{
+    padding-bottom: 170px;
+}
 .delivery-list{
     display: flex;
     flex-direction: column;
     margin-top: 32px;
     gap: 14px;
+   
 }
 
 .delivery-items{
@@ -35,8 +39,44 @@
     margin-right: 8px;    
 }
 
+.delivery-section{
+    /* background-color: var(--color-white);
+    background: url(../../img/delivery/mob@1x.jpg);
+    height: 100px; */
+    max-width: 1280px;
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+}
+/* @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx){
+    .delivery-section{
+        background-image: url(../../img/delivery/mob@2x.jpg);
+    }
+  } */
+
 .delivery-foto{
-    background: var(--color-white);
-    background: url(./img/delivery/mob-flower-delivery.jpg) no-repeat;
-    height: 100px;
+    height: 135px;
+    margin-top: 35px;
+}
+
+.delivery-img{
+margin-top: -135px;
+} 
+
+.qwe{
+    background: url(../../img/delivery/mob@1x.jpg) no-repeat;
+    flex: 1;
+    padding-top: 135px;
+    margin-top: 26px;
+    /* position: absolute; */
+    bottom: 0;
+    min-width: 320px;
+    position: relative;
 }
