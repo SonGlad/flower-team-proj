@@ -1,41 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Montserrat:wght@400;500;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
 
-/* reset styles */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-button {
-    cursor: pointer;
-}
-
-.link {
-    text-decoration: none;
-    color: currentColor;
-}
-
-.container{
-    padding: 16px;
-    margin-left: auto;
-    margin-right: auto;
-}
-@media screen and (min-width:768px) {
-    .container{
-        padding:24px ;
-    }
-}
 .all-in-about{
 }
 @media screen and (min-width:768px) {
@@ -51,22 +14,13 @@ button {
     }
 }
 .title-about {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: calc(29/24);
     display: flex;
     align-items: center;
     margin-top: 0px;
     margin-bottom: 32px;
-
-    color: #000000;
 }
 @media screen and (min-width:768px) {
    .title-about{
-    font-size: 44px;
-    line-height: calc(54/44);
     margin-bottom: 56px;
    }
 }
@@ -80,16 +34,15 @@ button {
 .txt-about{
     width: 288px;
 
-    font-family: 'Montserrat';
+   
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(20/16);
 
     margin: 0;
 
     
-    color: #000000;
+    color: var(--color-black);
 }
 @media screen and (min-width:768px) {
     .txt-about{

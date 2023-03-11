@@ -1,9 +1,9 @@
 <section class="section-about">
   <div class="container">
-    <h2 class="title-about">ABOUT</h2>
+    <h2 class="title-common title-about">ABOUT</h2>
     <div class="all-in-about">
       <div>
-        <p class="txt-about">
+        <p class="common-text txt-about">
           We are a minimalistic flower studio. We love people and flowers.
           Therefore, every day we give people the beauty and joy creating
           stylish and modern masterpieces. Every bouquet we create is unique as
@@ -13,15 +13,28 @@
       <div class="img-about">
         <picture>
           <source
-            srcset="../img/about-images/image_about_desk.png"
             media="(min-width:1280px)"
+            srcset="
+              ../img/about-images/image_about_desk_1x.png 1x,
+              ../img/about-images/image_about_desk_2x.png 2x
+            "
           />
           <source
-            srcset="../img/about-images/image_about_tab.png"
             media="(min-width:768px)"
+            srcset="
+              ../img/about-images/image_about_tab_1x.png 1x,
+              ../img/about-images/image_about_tab_2x.png 2x
+            "
+          />
+          <source
+            media="(max-width:767px)"
+            srcset="
+              ../img/about-images/image_about_mob_1x.png 1x,
+              ../img/about-images/image_about_mob_2x.png 2x
+            "
           />
           <img
-            src="../img/about-images/image_about_mob.png"
+            src="../img/about-images/image_about_mob_1x.png"
             alt="two beautiful pink flowers"
           />
         </picture>
