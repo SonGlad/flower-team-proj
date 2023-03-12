@@ -1,0 +1,61 @@
+<div class="backdrop">
+  <div class="blog-modal">
+    <button type="button" class="blog-modal-btn-close" data-modal-close>
+      <svg class="modal-closed-icon" width="18" height="18">
+        <use href="../img/icons/icons.svg#akar-icons_cross"></use>
+      </svg>
+    </button>
+    <div class="container-bg-img">
+      <picture>
+        <source
+          media="(min-width:1280px)"
+          srcset="
+            ../img/blog/blog-modal/blog-modal-img-desc-1x.png,
+            ../img/blog/blog-modal/blog-modal-img-desc-2x.png
+          "
+        />
+        <source
+          media="(min-width:768px)"
+          srcset="
+            ../img/blog/blog-modal/blog-modal-img-tab-1x.png,
+            ../img/blog/blog-modal/blog-modal-img-tab-2x.png
+          "
+        />
+        <img
+          src="../img/blog/blog-modal/blog-modal-img-mob-1x.png"
+          alt="a beautiful bouquet of flowers"
+          loading="lazy"
+        />
+      </picture>
+    </div>
+    <div class="modal-blog-content">
+      <h3 class="title-blog-modal">Follow to our newsletter</h3>
+      <p class="txt-blog-modal">
+        Be the first to get exclusive offers and the latest news on our product
+        directly in your box.
+      </p>
+      <div>
+        <form>
+          <p class="title-of-form">Email</p>
+          <label for="#user-email-blog"></label>
+          <input
+            class="blog-modal-field"
+            type="email"
+            name="email"
+            placeholder="Your email"
+            required
+          />
+        </form>
+      </div>
+      <button
+        class="blog-modal-btn"
+        type="submit"
+        data-modal
+        id="user-email-blog"
+        data-modal-submit
+      >
+        Subscribe
+      </button>
+    </div>
+  </div>
+</div>
