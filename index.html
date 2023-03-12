@@ -27,13 +27,58 @@
 
     
     <script type="module" crossorigin src="/flower-team-proj/assets/index-d9ccb713.js"></script>
-    <link rel="stylesheet" href="/flower-team-proj/assets/index-750f0e36.css">
+    <link rel="stylesheet" href="/flower-team-proj/assets/index-ff28f52b.css">
   </head>
   <body>
 
     <!--Header  -->
 
+    <section class="header">
+  <div class="container container-header">
+    <a class="header-link-logo" href="#">
+      <svg class="logo-header" width="45" height="35">
+        <use href="../img/icons/icons.svg#icon-mobile_logo"></use>
+      </svg>
+    </a>
+    <nav class="page-nav">
+      <ul class="menu">
+        <li class="menu-item">
+          <a class="header-link" href="#hero">Anemone</a>
+        </li>
+        <li class="menu-item">
+          <a class="header-link" href="#about">About us</a>
+        </li>
+        <li class="menu-item">
+          <a class="header-link" href="#store">Store</a>
+        </li>
+        <li class="menu-item">
+          <a class="header-link" href="#delivery">Delivery</a>
+        </li>
+        <li class="menu-item">
+          <a class="header-link" href="#blog">Blog</a>
+        </li>
+      </ul>
+    </nav>
     
+    <address class="call">
+      <a href="#">
+        <svg class="phone-icon" width="20" height="20">
+          <use href="../img/icons/icons.svg#icon-mob_tel"></use>
+        </svg>
+      </a>
+    </address>
+    <button
+      type="button"
+      class="mobile-menu-open js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu">
+      <svg class="mobile-menu-burger" width="24" height="24">
+        <use href="../img/icons/icons.svg#icon-burger"></use>
+      </svg>
+    </button>
+  </div>
+</section>
+
 
     <!-- Main Five -->
 
@@ -238,7 +283,24 @@
 
     <!-- Mobile Menu -->
 
-    
+    <div class="menu-container js-menu-container" id="mobile-menu">
+  <button class="menu-toggle js-close-menu">
+    <svg class="button-menu-close" width="24" height="24">
+      <use href="../img/icons/icons.svg#icon-burger_close"></use>
+    </svg>
+  </button>
+
+  <nav class="page-nav-mobile">
+    <ul class="menu">
+      <li class="menu-item-mobile"><a href="#hero">Anemone</a></li>
+      <li class="menu-item-mobile"><a href="#about">About us</a></li>
+      <li class="menu-item-mobile"><a href="#store">Store</a></li>
+      <li class="menu-item-mobile"><a href="#delivery">Delivery</a></li>
+      <li class="menu-item-mobile"><a href="#blog">Blog</a></li>
+    </ul>
+  </nav>
+</div>
+
 
     <!-- Modals -->
 
