@@ -27,7 +27,7 @@
 
     
     <script type="module" crossorigin src="/flower-team-proj/assets/index-d9ccb713.js"></script>
-    <link rel="stylesheet" href="/flower-team-proj/assets/index-ff28f52b.css">
+    <link rel="stylesheet" href="/flower-team-proj/assets/index-0b18f782.css">
   </head>
   <body>
 
@@ -85,13 +85,13 @@
     <main>
       <section class="hero-section" id="hero-section">
   <div class="container hero-container">
-    <h1 class="page-title">Anemone</h1>
-    <p
+    <h1 class="page-title" style="--shift-to-y: -355px">Anemone</h1>
+    <h2
       class="hero-badge"
       style="--shift-from-x: 0; --shift-to-x: -90px; --shift-to-y: 170px"
     >
       flower studio
-    </p>
+    </h2>
     <img
       srcset="
         ../img/hero/hero-img-mobile.png 145w,
@@ -104,25 +104,39 @@
       min-width="145"
     />
 
-    <button class="hero-button" type="button">
-      <svg width="76" height="76" class="hero-button-svg">
+    <button
+      class="hero-button"
+      type="button"
+      style="--shift-from-x: 0; --shift-to-x: 25px; --shift-to-y: 170px"
+    >
+      <svg width="76" height="76" class="hero-button-svg hero-icons">
         <use
           href="../img/icons/icons.svg#hero-icon-arrow"
-          class="hero-icon-arrow"
+          class="hero-icon-arrow hero-btn-arrow"
         ></use>
         <use
           href="../img/icons/icons.svg#hero-btn-text"
-          class="hero-icon-text"
+          class="hero-icon-text hero-icons hero-btn-txt"
         ></use>
       </svg>
       <svg width="145" height="150" class="hero-button-svg_tablet">
         <use
           href="../img/icons/icons.svg#icon-tab_btn_text"
-          class="hero-icon-text_tablet"
+          class="hero-icon-text_tablet hero-btn-txt"
         ></use>
         <use
           href="../img/icons/icons.svg#icon-tab_btn_errow"
-          class="hero-icon-arrow_tablet"
+          class="hero-icon-arrow_tablet hero-btn-arrow"
+        ></use>
+      </svg>
+      <svg class="hero-button-svg_desk hero-icons" width="166" height="166">
+        <use
+          href="../img/icons/icons.svg#hero-icon-arrow"
+          class="hero-btn-arrow"
+        ></use>
+        <use
+          href="../img/icons/icons.svg#icon-pc_btn_text"
+          class="hero-btn-txt"
         ></use>
       </svg>
     </button>
@@ -132,7 +146,7 @@
       src="../img/hero/hero-img.jpg"
       alt="Flower on a grey background"
       class="hero-image"
-      width="768"
+      width="1283"
     />
   </div>
 </section>
