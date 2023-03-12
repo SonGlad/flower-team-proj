@@ -1,7 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     aria-hidden="true"
-     style="position:absolute;width:0;height:0;overflow:hidden">
-      <defs>
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
 
 
     <!-- Mobile Burger -->
@@ -10,7 +8,8 @@
       <path d="M4 5.333h24V8H4V5.333zm8 9.334h16v2.667H12v-2.667zM4 24h24v2.667H4V24z" />
     </symbol>
     <symbol id="icon-burger_close" viewBox="0 0 32 32">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M24 8 8 24M8 8l16 16" />
+      <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667"
+        d="M24 8 8 24M8 8l16 16" />
     </symbol>
 
     <!-- Header -->
@@ -35,9 +34,9 @@
     </symbol>
     <symbol id="icon-close_small" viewBox="0 0 32 32">
 
-      
 
-      <path stroke-linecap="round" stroke-width="3.556" d="M26.667 5.333 5.334 26.666m21.333.001z"/>
+
+      <path stroke-linecap="round" stroke-width="3.556" d="M26.667 5.333 5.334 26.666m21.333.001z" />
 
     </symbol>
     <symbol id="akar-icons_cross" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
