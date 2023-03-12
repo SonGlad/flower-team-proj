@@ -1,6 +1,4 @@
-.delivery-container {
-  padding-bottom: 175px;
-}
+
 .delivery-list {
   display: flex;
   flex-direction: column;
@@ -35,12 +33,20 @@
   line-height: calc(17 / 14);
 }
 
-.delivery-img {
-  margin-top: -135px;
-  max-height: 135px;
-  width: 100%;
+
+
+.delivery-picture img{
+  width: calc(100% + 32px);
+  max-width: none;
+ 
+  margin-top: 32px;
+  margin-left: -16px;
 }
+
+
 
 .title-common:after {
   display: none;
 }
+
+
