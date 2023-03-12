@@ -1,14 +1,16 @@
 /* Section */
 :root {
-  --indent: 16px;
-  --value: 2;
+  --store-indent: 16px;
+  --store-value: 2;
 }
 .store-section {
+  margin-top: 60px;
   margin-bottom: 60px;
 }
 
 @media screen and (min-width: 768px) {
   .store-section {
+    margin-top: 100px;
     margin-bottom: 100px;
   }
 }
@@ -45,24 +47,23 @@
 }
 
 .store-item {
-  width: calc((100% - var(--indent)) / var(--value));
+  width: calc((100% - var(--store-indent)) / var(--store-value));
 }
 
 @media screen and (min-width: 768px) {
   .store-item {
-    --indent: 32px;
+    --store-indent: 32px;
   }
 }
 
-.store-item-img {
-}
+
 .store-content {
   margin-top: 12px;
 }
 
 @media screen and (min-width: 768px) {
   .store-content {
-    margin: top 16px;
+    margin-top: 16px;
   }
 }
 
@@ -70,7 +71,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: calc(20 / 16);
-  color: #000000;
+  color: var(--color-black);
   margin-bottom: 6px;
 }
 
@@ -86,7 +87,7 @@
   font-weight: 600;
   font-size: 12px;
   line-height: calc(15 / 12);
-  color: #000000;
+  color: var(--color-black);
   opacity: 0.6;
 }
 
