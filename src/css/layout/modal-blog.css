@@ -181,9 +181,9 @@
 }
 
 .blog-modal-btn:hover{
-    background: #E25B41;
+    background-color: var(--color-decor-hover);
 }
 .blog-modal-btn:focus{
-    background: #FA6F54;
+    background-color: var(--color-decor-focus);
     box-shadow: 0px 4px 16px rgba(250, 111, 84, 0.2);
 }
