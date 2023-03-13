@@ -16,13 +16,16 @@
 
 .blog .slick-list{
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1232px;
     display: flex;
+    justify-content: center;
     gap: 16px;
 }
 .blog .flower-slider-item{
     width: 136px;
+}
+.blog .flower-slider-item img{
+    max-width: none;
 }
 
 
