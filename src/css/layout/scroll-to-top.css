@@ -1,4 +1,5 @@
-.scroll-button {
+.btn_scroll {
+  opacity: 0;
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -9,21 +10,30 @@
   width: 60px;
   height: 60px;
 
+  cursor: pointer;
   border-radius: 50%;
   background-color: var(--color-decor);
   animation: slideInDown 6s infinite alternate;
+  transition: opacity 0.25s ease-in-out;
 }
 @media screen and (max-width: 1279px) {
-  .scroll-button {
+  .btn_scroll {
     display: flex;
   }
 }
-@media screen and (max-width: 768px) {
-  .scroll-button {
+@media screen and (min-width: 480px) {
+  .btn_scroll {
     width: 40px;
     height: 40px;
   }
 }
+@media screen and (min-width: 768px) {
+  .btn_scroll {
+    width: 50px;
+    height: 50px;
+  }
+}
+
 @keyframes slideInDown {
   0% {
     transform: translate3d(0, -100%, 0);
