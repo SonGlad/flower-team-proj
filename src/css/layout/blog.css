@@ -10,6 +10,16 @@
 .blog .blog-inner{
     padding: 32px 0 60px;
 }
+
+.blog .slick-list{
+    width: 100%;
+    max-width: 1232px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.blog .flower-slider-item{}
+
 .blog .follow{
     margin-top: 36px;
     display: flex;
@@ -30,17 +40,14 @@
 }
 
 @media screen and (min-width: 480px){
-    .blog .blog-inner {
-        padding: 60px 0 100px;
-    }
-    .blog .follow-text{
-        margin-bottom: 32px;
-    }
     .blog .follow{
         margin-top: 45px;
     }
 }
 @media screen and (min-width: 768px) {
+    .blog .blog-inner {
+        padding: 60px 0 100px;
+    }
     .blog .follow-text {
         font-size: 32px;
         line-height: calc(39 / 32);
@@ -52,15 +59,17 @@
         font-size: 28px;
         line-height: calc(24 / 28);
     }
-    .blog .blog-inner {
-        padding: 60px 0 122px;
-    }
     .blog .follow {
         margin-top: 45px;
     }
 }
 @media screen and (min-width: 1280px){
-
+    .blog .blog-inner {
+        padding: 122px 0 100px;
+    }
+    .blog .follow {
+        margin-top: 51px;
+    }
 }
 
 
