@@ -27,7 +27,7 @@
 
     
     <script type="module" crossorigin src="/flower-team-proj/assets/index-d9ccb713.js"></script>
-    <link rel="stylesheet" href="/flower-team-proj/assets/index-dfc5bbdd.css">
+    <link rel="stylesheet" href="/flower-team-proj/assets/index-8c200b84.css">
   </head>
   <body>
 
@@ -93,7 +93,12 @@
       flower studio
     </h2>
     <img
-      srcset="/flower-team-proj/assets/hero-img-mobile-ee58f53d.png 145w, /flower-team-proj/assets/hero-img-tablet-55eb97fa.png 390w"
+      srcset="
+        ../img/hero/hero-img-mobile.png    145w,
+        ../img/hero/hero-img-mobile@2x.png 290w,
+        ../img/hero/hero-img-tablet.png    390w,
+        ../img/hero/hero-img-tablet@2x.png 670w
+      "
       sizes="(min-width:768px) 390px,(max-width:767px) 145px, 100vw"
       class="hero-image_adaptive"
       src="./img/hero/image_home page.png"
@@ -137,14 +142,19 @@
         ></use>
       </svg>
     </button>
-  </div>
-  <div class="img-transition">
-    <img
-      src="/flower-team-proj/assets/hero-img-fc873295.jpg"
-      alt="Flower on a grey background"
-      class="hero-image"
-      width="1283"
-    />
+    <div class="img-transition">
+      <img
+        srcset="
+          ../img/hero/hero-img.jpg    1280w,
+          ../img/hero/hero-img@2x.jpg 2560w
+        "
+        sizes="(min-width:1280px) 1280px, 100vw"
+        src="../img/hero/hero-img.jpg"
+        alt="Flower on a grey background"
+        class="hero-image"
+        width="1283"
+      />
+    </div>
   </div>
 </section>
 
