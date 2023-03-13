@@ -24,11 +24,8 @@
     display: flex;
     flex-wrap: wrap;
 }
-.footer-blocks {
-}
+
 .footer-logo-box{
-    stroke: white;
-    fill: white;
     margin-right: 210px;
 }
 @media  (max-width: 1279px) {
@@ -36,14 +33,7 @@
         display: none;
     }
 }
-.footer-list-logo{
 
-}
-.footer-list-logo > .container{
-}
-.footer-logo {
-    
-}
 .footer-logo-anemone{
     width: 73px;
     height: 57px;
@@ -52,6 +42,7 @@
 .footer-logo-link {
     width: 73px;
     height: 57px;
+    fill: white;
 }
 .footer-block-name {
     font-family: "Inter";
@@ -67,9 +58,7 @@
         line-height: calc(24 / 20);
     }
 }
-.footer-block-nav{
 
-}
 .footer-nav-list {
     list-style: none;
     text-decoration: none;
@@ -90,8 +79,7 @@
 .footer-nav-link {
     margin-top: 12px;
 }
-.footer-nav-item {
-}
+
 .footer-contact-list {
     list-style: none;
     text-decoration: none;
@@ -122,8 +110,7 @@
 .footer-adress {
     margin-top: 12px;
 }
-/* .opening-times{
-} */
+
 @media  (min-width: 768px){
     .opening-times{
         margin-bottom: 0;
@@ -162,30 +149,25 @@
         gap: 18px;
     }
 }
-.list {
-}
-.social-networks-item {
-}
-.social-networks-link {
-}
-.link {
-}
+
 .social-networks-icon {
     stroke:  white;
 }
 .navigator-menu{
-    max-width: 116px;
+    width: 116px;
     margin-bottom: 32px;
     margin-right: 43px;
 }
 @media  (min-width: 768px){
     .navigator-menu{
+        width: 144px;
         margin-bottom: 0;
         margin-right: 44px;
     }
 }
 @media  (min-width: 1280px){
     .navigator-menu{
+        width: 116px;
         margin-right: 96px;
     }
 }
@@ -204,9 +186,7 @@
         margin-right: 208px;
     }
 }
-.footer-social{
 
-}
 @media (min-width:768px) {
     .footer-mail br{
         display:none;
