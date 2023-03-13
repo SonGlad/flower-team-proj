@@ -19,11 +19,8 @@
         left: 0;
         width: 100vw;
         height: 100vh;
-        /* padding: 80px 32px 32px; */
         background-color: var(--color-decor);
-
         z-index: 999;
-
         transform: translateX(150%);
         transition: transform 250ms ease-in-out;
     }
@@ -45,18 +42,16 @@
 
     }
 
-    /* .menu-close {
-        fill: white;
-    } */
 
     .menu-mobile {
         display: flex;
         flex-direction: column;
         gap: 26px;
+        text-align: center;
     }
 
     .mobile-link {
-        Font-family: Montserrat, regular, sans-serif;
+        Font-family: inherit;
         Font-size: 20px;
         Line-height: calc(24 /20);
         color: var(--color-white);
