@@ -1,0 +1,115 @@
+  .thank-u-modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 272px;
+    min-height: 357px;
+    background-color: #FCFCFC;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: transform 150ms ease 50ms,
+    opacity 150ms ease 50ms;
+}
+@media screen and (min-width:768px) {
+  .thank-u-modal{
+    width: 480px;
+    min-height: 505px;
+  }
+}
+.thank-modal-btn-close{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 0;
+    top: 14px;
+    right: 14px;
+    width: 18px;
+    height: 18px;
+    background: #E7E9FC;
+    cursor: pointer;
+    padding: 0;
+}
+@media screen and (min-width:768px) {
+  .thank-modal-btn-close{
+    top: 24px;
+    right: 24px;
+  }
+}
+.thank-modal-content{
+  padding: 44px 16px 32px 16px;
+}
+@media screen and (min-width:768px) {
+  .thank-modal-content{
+    padding: 54px 32px 54px 32px;
+  }
+}
+.thank-modal-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: calc(24/20);
+
+  text-align: center;
+
+  margin-top: 16px;
+  margin-bottom: 14px;
+}
+@media screen and (min-width:768px) {
+  .thank-modal-title{
+    font-size: 32px;
+    line-height: calc(39/32);
+
+    margin-bottom: 16px;
+  }
+}
+.thank-modal-txt {
+  font-weight: 500;
+  font-size: 12px;
+  line-height:  calc(15/12);
+  text-align: center;
+  
+  color: #5C5C5C;
+
+  margin-bottom: 18px;
+}
+@media screen and (min-width:768px) {
+  .thank-modal-txt{
+    font-size: 16px;
+    line-height: 20px;
+
+    margin-bottom: 34px;
+  }
+}
+.thank-modal-btn {
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: calc(17/14);
+
+  width: 100%;
+  
+  text-align: center;
+  
+  color: var(--color-white);
+  background-color: var(--color-decor);
+
+  padding: 10px 87px 10px 87px;
+
+  border-color: var(--color-decor);
+  border: 1px;
+  border-radius: 8px;
+}
+@media screen and (min-width:768px) {
+  .thank-modal-btn{
+    font-size: 18px;
+    line-height: 22px;
+
+    padding: 14px 165px 14px 165px;
+  }
+}
+.container-for-img-thank{
+  padding-right: 26px;
+  padding-left: 26px;
+}
