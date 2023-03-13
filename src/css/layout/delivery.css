@@ -10,19 +10,16 @@
     gap: 20px;
   }
 }
-
 @media screen and (min-width: 1280px) {
   .delivery-list {
     margin-top: 80px;
     gap: 35px;
   }
 }
-
 .delivery-items {
   display: flex;
   align-items: center;
 }
-
 .number {
   font-style: normal;
   font-size: 20px;
@@ -33,16 +30,13 @@
   border-radius: 50%;
   width: 40px;
   height: 40px;
-
   display: flex;
   align-items: center;
   justify-content: center;
   margin-right: 8px;
 }
-
 @media screen and (min-width: 768px) {
   .number {
-    
     font-size: 26px;
     line-height: calc(32 / 26);
     padding: 16px 27px;
@@ -51,14 +45,12 @@
     margin-right: 20px;
   }
 }
-
 @media screen and (min-width: 1280px) {
   .number {
-    margin-left: 72px;   
+    margin-left: 72px;
     margin-right: 56px;
   }
 }
-
 .delivery-text {
   text-align: start;
   font-style: normal;
@@ -66,14 +58,12 @@
   line-height: calc(17 / 14);
   font-weight: 500;
 }
-
 @media screen and (min-width: 768px) {
   .delivery-text {
     font-size: 24px;
   line-height: calc(29 / 24);
   }
 }
-
 @media screen and (min-width: 1280px) {
   .delivery-text {
     font-size: 32px;
@@ -82,26 +72,21 @@
   text-align: left;
   }
 }
-
 .delivery-picture img {
   width: calc(100% + 32px);
   max-width: none;
-
   margin-top: 32px;
   margin-left: -16px;
 }
-
 @media screen and (min-width: 768px) {
   .delivery-picture img{
+    width: calc(100% + 48px);
     margin-top: 40px;
+    margin-left: -24px;
   }
 }
-
 @media screen and (min-width: 1280px) {
   .delivery-picture img{
     margin-top: 69px;
   }
-}
-.title-common:after {
-  display: none;
 }
