@@ -79,6 +79,7 @@
     font-size: 32px;
   line-height: calc(39 / 32);
   margin-right: 72px;
+  text-align: left;
   }
 }
 
@@ -104,6 +105,3 @@
 .title-common:after {
   display: none;
 }
-/* 
-dfdsfsdfs
-sdfsdfsdf */
