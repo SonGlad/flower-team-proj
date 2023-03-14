@@ -9,11 +9,16 @@
     text-decoration: none;
     text-align: center;
     width: 100%;
-  }
-
-.blog .follow-btn:hover{
-    background-color: var(--color-decor-hover);
+    transition: background-color var(--main-trans)
 }
-.blog .follow-btn:focus{
+
+.btn-common:hover{
+    background-color: var(--color-decor-hover);
+    box-shadow: 0px 4px 16px rgba(250, 111, 84, 0.2);
+    transition: background-color var(--main-trans), box-shadow var(--main-trans);
+}
+.btn-common:focus{
     background-color: var(--color-decor-focus);
+    box-shadow: 0px 4px 16px rgba(250, 111, 84, 0.2);
+    transition: background-color var(--main-trans), box-shadow var(--main-trans);
 }

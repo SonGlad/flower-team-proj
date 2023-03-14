@@ -11,7 +11,7 @@
 
 
 .blog .flower-swipe{
-    /* display: flex; */
+    display: flex;
     margin-top: 32px;
     padding-bottom: 26px;
 }
@@ -26,11 +26,6 @@
 }
 
 
-
-.my-swipe-prev,
-.my-swipe-next{
-    
-}
 
 
 
