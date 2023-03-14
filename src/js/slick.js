@@ -1,29 +1,21 @@
-$('.responsive').slick({
-  // dots: true,
+$('.flower-swipe').slick({
+
   prevArrow: '<button type="button" class="my-slick-prev">&xlarr;</button>',
   nextArrow: '<button type="button" class="my-slick-next">&xrarr;</button>',
-  infinite: true,
-  speed: 300,
-  slidesToScroll: 1,
-  adaptiveHeight: true,
+
   slidesToShow: 3,
-  variableWidth: true, // обовязково додається, щоб частина картки заходило за вьюпорт
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
 
   responsive: [
     {
-      breakpoint: 1200,
+      breakpoint: 1280,
       settings: {
         slidesToShow: 2,
-      },
+      }
     },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 1,
-      },
-    },
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ],
+  ]
+
+
 });
