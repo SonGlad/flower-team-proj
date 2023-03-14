@@ -173,30 +173,6 @@
 .blog-modal-field:not(:placeholder-shown):required:invalid{
     border-color: red;
 }
-.custom-checkbox-before {
-    opacity: 1;
-    fill: var(--color-white);
-    transition: opacity var(--tarns);
-}
-
-.custom-checkbox-after {
-    opacity: 0;
-    transition: opacity var(--tarns);
-}
-
-.modal-form-checkbox:focus+.custom-checkbox {
-    outline: 2px solid #404BBF;
-    border-radius: 2px;
-    outline-offset: -2px;
-}
-
-.modal-form-checkbox:checked+.custom-checkbox>.custom-checkbox-before {
-    opacity: 0;
-}
-
-.modal-form-checkbox:checked+.custom-checkbox>.custom-checkbox-after {
-    opacity: 1;
-}
 .blog-modal-btn{
     background: #E86F54;
     border: 0;
