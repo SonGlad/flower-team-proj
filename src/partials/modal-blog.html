@@ -1,4 +1,4 @@
-<div class="backdrop is-hidden" data-modal>
+<div class="backdrop" data-modal>
   <div class="blog-modal">
     <button type="button" class="blog-modal-btn-close" data-modal-close>
       <svg class="modal-closed-icon" width="18" height="18">
@@ -17,8 +17,8 @@
         <source
           media="(min-width:768px)"
           srcset="
-            ./img/blog/blog-modal/blog-modal-img-tab-1x.png 1x,
-            ./img/blog/blog-modal/blog-modal-img-tab-2x.png 2x
+            ./img/blog/blog-modal/blog-modal-img-tab-1x.png,
+            ./img/blog/blog-modal/blog-modal-img-tab-2x.png
           "
         />
         <source
@@ -31,8 +31,6 @@
         <img
           src="./img/blog/blog-modal/blog-modal-img-mob-1x.png 1x"
           alt="a beautiful bouquet of flowers"
-          width="272"
-          height=""
           loading="lazy"
         />
       </picture>
@@ -46,7 +44,7 @@
 
       <form>
         <label class="title-of-form" for="user_email_blog">Email</label>
-        <div>
+        <div class="icon-position">
           <input
             class="blog-modal-field"
             type="email"
@@ -55,11 +53,21 @@
             placeholder="Your email"
             required
           />
-          <!--
-          <svg class="" width="" height="">
-            <use href=""></use>
+          <svg
+            class="blog-field-icons blog-field-icons-ok"
+            width="20"
+            height="20"
+          >
+            <use href="./img/icons/icons.svg#icon-ok_svg"></use>
           </svg>
-        --></div>
+          <svg
+            class="blog-field-icons blog-field-icons-error"
+            width="20"
+            height="20"
+          >
+            <use href="./img/icons/icons.svg#icon-error-logo"></use>
+          </svg>
+        </div>
         <button
           class="btn-common blog-modal-btn"
           type="submit"
