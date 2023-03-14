@@ -179,7 +179,7 @@
  .store-modal-btn:focus{
     background-color: var(--color-decor-focus);
  }
- .store-name-field:focus,
+ /* .store-name-field:focus,
  .store-name-field:focus-visible,
  .store-email-field:focus,
  .store-email-field:focus-visible {
@@ -197,3 +197,58 @@
  .store-email-field:not(:placeholder-shown):required:invalid {
      border-color: red;
  }
+ */
+.icon-position {
+    position: relative;
+}
+
+.blog-field-icons {
+    position: absolute;
+    top: 22px;
+    right: 10px;
+    opacity: 0;
+}
+
+.blog-field-icons.store-name-field:focus,
+.store-name-field:focus-visible {
+    outline-color: rgba(17, 17, 17, 0.7);
+    outline: 1px solid;
+}
+
+.store-name-field:not(:placeholder-shown):required:valid+.blog-field-icons-ok {
+    opacity: 1;
+}
+
+.store-name-field:not(:placeholder-shown):required:valid {
+    border-color: green;
+}
+
+.store-name-field:not(:placeholder-shown):required:invalid~.blog-field-icons-error {
+    opacity: 1;
+}
+
+.store-name-field:not(:placeholder-shown):required:invalid {
+    border-color: red;
+}
+
+.blog-field-icons.store-email-field:focus,
+.store-email-field:focus-visible {
+    outline-color: rgba(17, 17, 17, 0.7);
+    outline: 1px solid;
+}
+
+.store-email-field:not(:placeholder-shown):required:valid+.blog-field-icons-ok {
+    opacity: 1;
+}
+
+.store-email-field:not(:placeholder-shown):required:valid {
+    border-color: green;
+}
+
+.store-email-field:not(:placeholder-shown):required:invalid~.blog-field-icons-error {
+    opacity: 1;
+}
+
+.store-email-field:not(:placeholder-shown):required:invalid {
+    border-color: red;
+}

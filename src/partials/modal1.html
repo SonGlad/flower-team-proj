@@ -1,4 +1,4 @@
-<div class="backdrop is-hidden">
+<div class="backdrop">
   <div class="store-modal">
     <div class="modal-store-content">
       <button
@@ -18,9 +18,10 @@
         before you make an order please fill in your contact details. We will
         call you back.
       </p>
-      <div>
-        <form>
-          <label class="title-of-form" for="user_name_store">Name</label>
+
+      <form>
+        <label class="title-of-form" for="user_name_store">Name</label>
+        <div class="icon-position">
           <input
             class="store-name-field"
             type="text"
@@ -29,27 +30,49 @@
             placeholder="Kristin Watson"
             required
           />
-
-          <label class="title-of-form" for="user_email_store">Email</label>
+          <svg
+            class="blog-field-icons blog-field-icons-ok"
+            width="20"
+            height="20"
+          >
+            <use href="./img/icons/icons.svg#icon-ok_svg"></use>
+          </svg>
+        </div>
+        <label class="title-of-form" for="user_email_store">Email</label>
+        <div class="icon-position">
           <input
             class="store-email-field"
             name="user-email"
             id="user_email_store"
-            type="user_email"
+            type="email"
             placeholder="tanya.hill@example.com"
             required
           />
 
-          <button
-            class="store-modal-btn"
-            type="submit"
-            data-modal
-            id="user-email-blog"
+          <svg
+            class="blog-field-icons blog-field-icons-ok"
+            width="20"
+            height="20"
           >
-            Send
-          </button>
-        </form>
-      </div>
+            <use href="./img/icons/icons.svg#icon-ok_svg"></use>
+          </svg>
+          <svg
+            class="blog-field-icons email-icon blog-field-icons-error"
+            width="20"
+            height="20"
+          >
+            <use href="./img/icons/icons.svg#icon-error-logo"></use>
+          </svg>
+        </div>
+        <button
+          class="store-modal-btn"
+          type="submit"
+          data-modal
+          id="user-email-blog"
+        >
+          Send
+        </button>
+      </form>
     </div>
   </div>
 </div>
