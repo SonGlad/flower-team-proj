@@ -43,7 +43,7 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <script type="module" crossorigin src="/flower-team-proj/assets/index-822dd2cc.js"></script>
-    <link rel="stylesheet" href="/flower-team-proj/assets/index-2bdbeb8b.css">
+    <link rel="stylesheet" href="/flower-team-proj/assets/index-8c030358.css">
   </head>
   <body>
 
@@ -478,16 +478,10 @@
 
     <!-- Modals -->
 
-    <div class="backdrop">
+    <div class="backdrop is-hidden">
   <div class="store-modal">
     <div class="modal-store-content">
-      <button
-        type="button"
-        id=".js-modal-close"
-        e
-        class="store-modal-btn-close"
-        data-modal-close
-      >
+      <button type="button" class="store-modal-btn-close">
         <svg class="modal-closed-icon" width="18" height="18">
           <use href="/flower-team-proj/assets/icons-a24495d9.svg#akar-icons_cross"></use>
         </svg>
@@ -500,58 +494,58 @@
       </p>
 
       <form>
-        <label class="title-of-form" for="user_name_store">Name</label>
-        <div class="icon-position">
-          <input
-            class="store-name-field"
-            type="text"
-            name="user_name"
-            id="user_name_store"
-            placeholder="Kristin Watson"
-            required
-          />
-          <svg
-            class="blog-field-icons blog-field-icons-ok"
-            width="20"
-            height="20"
-          >
-            <use href="/flower-team-proj/assets/icons-a24495d9.svg#icon-ok_svg"></use>
-          </svg>
-        </div>
-        <label class="title-of-form" for="user_email_store">Email</label>
-        <div class="icon-position">
-          <input
-            class="store-email-field"
-            name="user-email"
-            id="user_email_store"
-            type="email"
-            placeholder="tanya.hill@example.com"
-            required
-          />
+        <label class="title-of-form style-for-name" for="user_name_store">Name</label>
+          <div class="icon-position">
+            <input
+              class="store-name-field"
+              type="text" pattern="[a-zA-Z0-9]+"
+              name="user_name"
+              id="user_name_store"
+              placeholder="Kristin Watson"
+              required
+            />
+            <svg
+              class="blog-field-icons blog-field-icons-ok"
+              width="20"
+              height="20"
+            >
+              <use href="/flower-team-proj/assets/icons-a24495d9.svg#icon-ok_svg"></use>
+            </svg>
+            <svg
+              class="blog-field-icons email-icon blog-field-icons-error"
+              width="20"
+              height="20"
+            >
+              <use href="/flower-team-proj/assets/icons-a24495d9.svg#icon-error-logo"></use>
+            </svg>
+          </div>
+        <label class="title-of-form style-for-email" for="user_email_store">Email</label>
+          <div class="icon-position">
+            <input
+              class="store-email-field"
+              name="user-email"
+              id="user_email_store"
+              type="email"
+              placeholder="tanya.hill@example.com"
+              required
+            />
 
-          <svg
-            class="blog-field-icons blog-field-icons-ok"
-            width="20"
-            height="20"
-          >
-            <use href="/flower-team-proj/assets/icons-a24495d9.svg#icon-ok_svg"></use>
-          </svg>
-          <svg
-            class="blog-field-icons email-icon blog-field-icons-error"
-            width="20"
-            height="20"
-          >
-            <use href="/flower-team-proj/assets/icons-a24495d9.svg#icon-error-logo"></use>
-          </svg>
-        </div>
-        <button
-          class="store-modal-btn"
-          type="submit"
-          data-modal
-          id="user-email-blog"
-        >
-          Send
-        </button>
+            <svg
+              class="blog-field-icons blog-field-icons-ok"
+              width="20"
+              height="20"
+            >
+              <use href="/flower-team-proj/assets/icons-a24495d9.svg#icon-ok_svg"></use>
+            </svg>
+            <svg
+              class="blog-field-icons email-icon blog-field-icons-error"
+              width="20"
+              height="20"
+            >
+              <use href="/flower-team-proj/assets/icons-a24495d9.svg#icon-error-logo"></use>
+            </svg>
+          </div>
+        <button class="btn-common store-modal-btn" type="submit">Send</button>
       </form>
     </div>
   </div>
@@ -617,7 +611,7 @@
       </p>
 
       <form>
-        <label class="title-of-form" for="user_email_blog">Email</label>
+        <label class="title-of-form style-for-email" for="user_email_blog">Email</label>
         <div class="icon-position">
           <input
             class="blog-modal-field"
@@ -642,15 +636,7 @@
             <use href="/flower-team-proj/assets/icons-a24495d9.svg#icon-error-logo"></use>
           </svg>
         </div>
-        <button
-          class="btn-common blog-modal-btn"
-          type="submit"
-        
-          id="user-email-blog"
-        
-        >
-          Subscribe
-        </button>
+        <button class="btn-common blog-modal-btn" type="submit" id="user-email-blog">Subscribe</button>
       </form>
     </div>
   </div>
