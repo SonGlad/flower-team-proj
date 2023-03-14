@@ -1,0 +1,230 @@
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+.backdrop.is-hidden .modal {
+    transform: translate(-50%, -70%);
+    opacity: 0;
+}
+.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+.blog-modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 272px;
+    min-height: 380px;
+    background-color: #FCFCFC;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: transform 150ms ease 50ms, opacity 150ms ease 50ms;
+}
+@media screen and (min-width:768px) {
+    .blog-modal{
+        width: 588px;
+    }
+}
+@media screen and (min-width:1280px) {
+    .blog-modal{
+        width: 860px;
+        display: flex;
+    }
+}
+.blog-modal-btn-close{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 0;
+    top: 14px;
+    right: 14px;
+    width: 18px;
+    height: 18px;
+    background: #E7E9FC;
+    cursor: pointer;
+    padding: 0;
+}
+@media screen and (min-width:768px) {
+    .blog-modal-btn-close{
+        top: 24px;
+        right: 24px;
+        width: 24px;
+        height: 24px;
+    }
+}
+.modal-blog-content{
+    padding: 18px 16px 28px 16px;
+}
+@media screen and (min-width:768px) {
+    .modal-blog-content{
+        padding: 28px 118px 40px 118px;
+    }
+}
+@media screen and (min-width:1280px) {
+    .modal-blog-content{
+        padding: 111px 40px 112px 40px;
+    }
+}
+.title-blog-modal{
+    text-align: center;
+
+    font-weight: 600;
+    font-size: 19px;
+    line-height: calc(23/19);
+
+    margin-bottom: 14px;
+}
+@media screen and (min-width:768px) {
+    .title-blog-modal{
+        font-size: 28px;
+        line-height: calc(34/28);
+        margin-bottom: 24px;
+    }
+}
+.txt-blog-modal{
+    text-align: center;
+    font-size: 12px;
+    line-height: 130%;
+    width: 236px;
+
+    color: #5C5C5C;
+
+    margin-bottom: 18px;
+}
+@media screen and (min-width:768px) {
+    .txt-blog-modal{
+        font-size: 16px;
+        width: 336px;
+
+        margin-bottom: 32px;
+    }
+}
+.title-of-form{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: calc(12/10);
+    
+    color: #5C5C5C;
+
+}
+@media screen and (min-width:768px) {
+    .title-of-form{
+        font-size: 14px;
+        line-height: calc(17/14);
+
+        
+    }
+}
+.blog-modal-field{
+    width: 100%;
+    height: 35px;
+
+    border: 1px solid #D7D7D7;
+    border-radius: 4px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: calc(15/12);
+
+    margin-top: 8px;
+    margin-bottom: 18px;
+}
+@media screen and (min-width:768px) {
+    .blog-modal-field{
+        font-size: 14px;
+        line-height: calc(17/14);
+
+        height: 49px;
+
+        margin-bottom: 28px;
+        padding-right: 39px;
+    }
+}
+
+.icon-position{
+    position: relative;
+}
+.blog-field-icons{
+    position: absolute;
+    top: 22px;
+    right: 10px;
+    opacity: 0;
+}
+.blog-field-icons.blog-modal-field:focus, .blog-modal-field:focus-visible{
+    outline-color: rgba(17, 17, 17, 0.7);
+    outline: 1px solid;
+}
+.blog-modal-field:not(:placeholder-shown):required:valid+.blog-field-icons-ok{
+    opacity: 1;
+}
+.blog-modal-field:not(:placeholder-shown):required:valid{
+    border-color: green;
+}
+.blog-modal-field:not(:placeholder-shown):required:invalid~.blog-field-icons-error{
+    opacity: 1;
+}
+.blog-modal-field:not(:placeholder-shown):required:invalid{
+    border-color: red;
+}
+.custom-checkbox-before {
+    opacity: 1;
+    fill: var(--color-white);
+    transition: opacity var(--tarns);
+}
+
+.custom-checkbox-after {
+    opacity: 0;
+    transition: opacity var(--tarns);
+}
+
+.modal-form-checkbox:focus+.custom-checkbox {
+    outline: 2px solid #404BBF;
+    border-radius: 2px;
+    outline-offset: -2px;
+}
+
+.modal-form-checkbox:checked+.custom-checkbox>.custom-checkbox-before {
+    opacity: 0;
+}
+
+.modal-form-checkbox:checked+.custom-checkbox>.custom-checkbox-after {
+    opacity: 1;
+}
+.blog-modal-btn{
+    background: #E86F54;
+    border: 0;
+    border-color:#E86F54 ;
+    border-radius: 8px;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    padding: 10px 82px 10px 82px;
+
+    width: 100%;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+@media screen and (min-width:768px) {
+    .blog-modal-btn{
+        padding: 14px 122px 14px 122px;
+    }
+}
+
+.blog-modal-btn:hover{
+    background-color: var(--color-decor-hover);
+}
+.blog-modal-btn:focus{
+    background-color: var(--color-decor-focus);
+    box-shadow: 0px 4px 16px rgba(250, 111, 84, 0.2);
+}
