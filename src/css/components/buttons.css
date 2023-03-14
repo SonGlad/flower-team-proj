@@ -11,9 +11,9 @@
     width: 100%;
   }
 
-.blog .follow-btn:hover{
+.btn-common:hover{
     background-color: var(--color-decor-hover);
 }
-.blog .follow-btn:focus{
+.btn-common:focus{
     background-color: var(--color-decor-focus);
 }

@@ -6,33 +6,33 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  display: none;
-  width: 60px;
-  height: 60px;
-
+  width: 40px;
+  height: 40px;
   cursor: pointer;
   border-radius: 50%;
   background-color: var(--color-decor);
   animation: slideInDown 6s infinite alternate;
   transition: opacity 0.25s ease-in-out;
 }
-@media screen and (max-width: 1279px) {
-  .btn_scroll {
-    display: flex;
-  }
-}
-@media screen and (min-width: 480px) {
-  .btn_scroll {
-    width: 40px;
-    height: 40px;
-  }
-}
+
 @media screen and (min-width: 768px) {
   .btn_scroll {
     width: 50px;
     height: 50px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .btn_scroll {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .scroll-button-svg {
+    width: 50px;
+    height: 50px;
+  }
+}
+
 
 @keyframes slideInDown {
   0% {
