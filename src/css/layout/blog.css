@@ -1,11 +1,8 @@
 /* section Blog (start) */
 
-     /* на время  */
-.title-common:after{
-    display: none; 
+.blog{
+    padding-top: 60px;
 }
-    /* на время */
-
 
 .blog .blog-inner{
     padding: 32px 0 60px;
@@ -13,16 +10,26 @@
 
 
 
-
-.blog .slick-list{
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    gap: 16px;
+.blog .flower-swipe{
+    /* display: flex; */
+    margin-top: 32px;
+    padding-bottom: 26px;
 }
-.blog .flower-slider-item{
+.blog .flower-swipe-item{
+    margin: 0 8px;
     width: 136px;
+}
+.blog .flower-swipe-item img{
+    width: 136px;
+    /* height: 181px; */
+
+}
+
+
+
+.my-swipe-prev,
+.my-swipe-next{
+    
 }
 
 
@@ -96,8 +103,3 @@
 }
 
 /* section Blog (end) */
-
-
-
-
-
