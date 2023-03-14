@@ -1,5 +1,8 @@
 /* section Blog (start) */
 
+.blog{
+    padding-top: 60px;
+}
 
 .blog .blog-inner{
     padding: 32px 0 60px;
@@ -8,7 +11,9 @@
 
 
 .blog .flower-swipe{
-    display: flex;
+    /* display: flex; */
+    margin-top: 32px;
+    padding-bottom: 26px;
 }
 .blog .flower-swipe-item{
     margin: 0 8px;
@@ -18,6 +23,13 @@
     width: 136px;
     /* height: 181px; */
 
+}
+
+
+
+.my-swipe-prev,
+.my-swipe-next{
+    
 }
 
 
