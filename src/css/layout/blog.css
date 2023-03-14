@@ -1,11 +1,5 @@
 /* section Blog (start) */
 
-     /* на время  */
-.title-common:after{
-    display: none; 
-}
-    /* на время */
-
 
 .blog .blog-inner{
     padding: 32px 0 60px;
@@ -13,19 +7,17 @@
 
 
 
-
-.blog .slick-list{
-    width: 100%;
-    max-width: 1232px;
+.blog .flower-swipe{
     display: flex;
-    justify-content: center;
-    gap: 16px;
 }
-.blog .flower-slider-item{
+.blog .flower-swipe-item{
+    margin: 0 8px;
     width: 136px;
 }
-.blog .flower-slider-item img{
-    max-width: none;
+.blog .flower-swipe-item img{
+    width: 136px;
+    /* height: 181px; */
+
 }
 
 
@@ -99,8 +91,3 @@
 }
 
 /* section Blog (end) */
-
-
-
-
-
