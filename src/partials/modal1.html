@@ -20,37 +20,35 @@
       </p>
       <div>
         <form>
-          <p class="title-store-form">Name</p>
-          <label for="user-name-store"></label>
+          <label class="title-of-form" for="user_name_store">Name</label>
           <input
             class="store-name-field"
             type="text"
-            name="name"
-            id="#user-name-store"
+            name="user_name"
+            id="user_name_store"
             placeholder="Kristin Watson"
             required
           />
-        </form>
-        <form>
-          <p class="title-store-form">Email</p>
-          <label for="user-email-store"></label>
+
+          <label class="title-of-form" for="user_email_store">Email</label>
           <input
             class="store-email-field"
-            type="email"
-            name="email"
-            id="#user-email-store"
+            name="user-email"
+            id="user_email_store"
+            type="user_email"
             placeholder="tanya.hill@example.com"
             required
           />
+
+          <button
+            class="store-modal-btn"
+            type="submit"
+            data-modal
+            id="user-email-blog"
+          >
+            Send
+          </button>
         </form>
-        <button
-          class="store-modal-btn"
-          type="submit"
-          data-modal
-          id="user-email-blog"
-        >
-          Send
-        </button>
       </div>
     </div>
   </div>

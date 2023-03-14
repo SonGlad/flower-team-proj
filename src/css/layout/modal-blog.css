@@ -95,11 +95,15 @@
     width: 236px;
 
     color: #5C5C5C;
+
+    margin-bottom: 18px;
 }
 @media screen and (min-width:768px) {
     .txt-blog-modal{
         font-size: 16px;
         width: 336px;
+
+        margin-bottom: 32px;
     }
 }
 .title-of-form{
@@ -109,15 +113,13 @@
     
     color: #5C5C5C;
 
-    margin-bottom: 8px;
-    margin-top: 18px;
 }
 @media screen and (min-width:768px) {
     .title-of-form{
         font-size: 14px;
         line-height: calc(17/14);
 
-        margin-top: 32px;
+        
     }
 }
 .blog-modal-field{
@@ -131,7 +133,7 @@
     font-size: 12px;
     line-height: calc(15/12);
 
-
+    margin-top: 8px;
     margin-bottom: 18px;
 }
 @media screen and (min-width:768px) {

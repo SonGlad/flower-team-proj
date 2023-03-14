@@ -86,21 +86,6 @@
         padding: 48px 32px 48px 32px;
     }
 }
- .title-store-form {
-     font-weight: 500;
-     font-size: 10px;
-     line-height: calc(12/10);
-
-     color: #5C5C5C;
-
-     margin-bottom: 8px;
- }
-@media screen and (min-width:768px) {
-    .title-store-form{
-        font-size: 14px;
-        line-height: calc(17/14);
-    }
-}
  .store-modal-field {
      width: 100%;
      height: 35px;
@@ -125,6 +110,7 @@
      font-size: 12px;
      line-height: calc(15/12);
 
+     margin-top: 8px;
      margin-bottom: 14px;
  }
 @media screen and (min-width:768px) {
@@ -148,6 +134,7 @@
      font-size: 12px;
      line-height: calc(15/12);
 
+     margin-top: 8px;
      margin-bottom: 24px;
  }
  @media screen and (min-width:768px) {

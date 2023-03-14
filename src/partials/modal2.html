@@ -10,10 +10,20 @@
         <picture>
           <source
             media="(min-width:768px)"
-            srcset="../img/store/thank-modal-tab.png"
+            srcset="
+              ./img/store/store-modals/thank-modal-tab-1x.png 1x,
+              ./img/store/store-modals/thank-modal-tab-2x.png 2x
+            "
+          />
+          <source
+            media="(max-width:767px)"
+            srcset="
+              ../img/store/store-modals/thank-modal-img-tel-1x.png 1x,
+              ../img/store/store-modals/thank-modal-img-tel-2x.png 2x
+            "
           />
           <img
-            src="../img/store/thank-modal-img-tel.png"
+            src="./img/store/store-modals/thank-modal-img-tel-1x.png 1x"
             class="thank-modal-img"
             alt="beautiful picture"
           />
