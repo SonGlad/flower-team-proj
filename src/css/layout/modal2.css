@@ -32,13 +32,18 @@
     cursor: pointer;
     padding: 0;
 }
-
+.thank-modal-btn-close:hover{
+  scale: 1.2;
+}
 @media screen and (min-width:768px) {
   .thank-modal-btn-close{
     top: 24px;
     right: 24px;
-    width: 24px;
-    height: 24px;
+    scale: 1.2;
+  }
+  .thank-modal-btn-close:hover {
+     width: 25px;
+     height: 25px;
   }
 }
 

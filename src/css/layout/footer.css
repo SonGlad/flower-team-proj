@@ -101,11 +101,30 @@
 
 .footer-tel {
     margin-top: 12px;
+    transition: color var(--main-trans);
+}
+.footer-tel:hover{
+    color: var(--color-decor-hover);
+    transition: color var(--main-trans);
+}
+.footer-tel:focus{
+    color: var(--color-decor-focus);
+    transition: color var(--main-trans);
 }
 .footer-mail {
     display: flex;
     flex-wrap: wrap;
     margin-top: 12px;
+
+    transition: color var(--main-trans);
+}
+.footer-mail:hover{
+    color: var(--color-decor-hover);
+    transition: color var(--main-trans);
+}
+.footer-mail:focus{
+    color: var(--color-decor-focus);
+    transition: color var(--main-trans);
 }
 .footer-adress {
     margin-top: 12px;
@@ -152,6 +171,15 @@
 
 .social-networks-icon {
     stroke:  white;
+    transition: stroke var(--main-trans);
+}
+.social-networks-icon:hover{
+    stroke: var(--color-decor-hover);
+    transition: stroke var(--main-trans);
+}
+.social-networks-icon:focus{
+    stroke: var(--color-decor-focus);
+    transition: stroke var(--main-trans);
 }
 .navigator-menu{
     width: 116px;
@@ -192,4 +220,23 @@
         display:none;
     }
     
+}
+
+/* nav-item-styles */
+
+.footer-nav-item{
+    padding: 15px 0;
+    transition: color var(--main-trans);
+}
+.footer-nav-item:hover{
+    color: var(--color-decor-hover);
+    transition: color var(--main-trans);
+}
+.footer-nav-item:focus{
+    color: var(--color-decor-focus);
+    transition: color var(--main-trans);
+}
+.last-footer-nav-item{
+    padding-top: 15px;
+    padding-bottom: 0;
 }
