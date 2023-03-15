@@ -12,7 +12,7 @@
 .container-header {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+
 }
 
 .header-link-logo {
@@ -23,7 +23,6 @@
     fill: var(--color-phone);
 
 }
-
 
 
 .phone-icon {
@@ -53,8 +52,7 @@
         display: none;
     }
 
-    /* .menu-toggle {
-        display: none; */
+
     .header {
         padding-top: 24px;
     }
@@ -87,6 +85,19 @@
 }
 
 /* ====desktop=========== */
+
+@keyframes color-change {
+    from {
+        color: currentColor;
+        fill: currentColor;
+    }
+
+    to {
+        color: #fff;
+        fill: #fff;
+    }
+}
+
 @media screen and (min-width: 1280px) {
     .menu {
         gap: 48px;
@@ -105,7 +116,15 @@
         padding: 0;
     }
 
+    .menu-item {
+        animation: color-change 1000ms ease-out 1500ms both;
+    }
 
+    .phone-icon {
+        animation: color-change 1000ms ease-out 1500ms both;
+    }
 
-
+    .logo-header {
+        animation: color-change 1000ms ease-out 1500ms both;
+    }
 }

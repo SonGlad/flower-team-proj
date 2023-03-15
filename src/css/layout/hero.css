@@ -71,7 +71,7 @@
     position: absolute;
     top: 25px;
     right: 21px;
-    display: none;
+
     width: 58px;
     height: 8px;
     background-color: currentColor;
@@ -160,6 +160,12 @@
   transform-origin: center;
   animation: infinity-rotate 30s linear 4s infinite;
 }
+@media screen and (max-width: 1279px) {
+  .hero-btn-txt {
+    animation-delay: 0s;
+  }
+}
+
 .hero-btn-arrow {
   transform-origin: center;
   transition: transform 500ms ease-out;
@@ -177,6 +183,7 @@
   position: absolute;
   top: 0;
   left: 50%;
+  z-index: -1;
   transform: translate(-50%);
   display: none;
   width: 100%;
@@ -230,8 +237,8 @@
   to {
     transform: translateX(var(--shift-to-x, -50%))
       translateY(var(--shift-to-y, 0));
-    color: #fff;
-    fill: #fff;
+    color: var(--color-white);
+    fill: var(--color-white);
   }
 }
 

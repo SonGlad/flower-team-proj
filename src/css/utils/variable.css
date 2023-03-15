@@ -9,7 +9,9 @@
   --color-input: #D7D7D7;
   --color-input-green: #3CBC81;
   --color-input-red: #E74A3B;
-  --color-input-focus: #111111;
+  --color-input-focus: rgba(17, 17, 17, 0.7);
   --color-phone: #0E0E0E;
+
+  --main-trans: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
   }
