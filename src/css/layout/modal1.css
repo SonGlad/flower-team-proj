@@ -41,12 +41,18 @@
      cursor: pointer;
      padding: 0;
  }
+ .store-modal-btn-close:hover{
+    scale: 1.2;
+ }
 @media screen and (min-width:768px) {
     .store-modal-btn-close{
         top: 24px;
         right: 24px;
-        width: 24px;
-        height: 24px;
+
+    }
+         
+    .store-modal-btn-close:hover {
+        scale: 1.2;
     }
 }
  .store-modal-title {

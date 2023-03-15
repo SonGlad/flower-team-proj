@@ -46,6 +46,14 @@
         Font-family: inherit;
         Font-size: 20px;
         Line-height: calc(24 /20);
+        padding: 15px 30px 15px 30px ;
+        border-radius: 8px;
         color: var(--color-white);
+        transition: color var(--main-trans)
+        
+    }
+     .mobile-link:hover {
+         color: var(--color-black);
+         transition: color var(--main-trans)
     }
 }
