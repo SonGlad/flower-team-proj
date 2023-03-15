@@ -85,8 +85,8 @@
     }
 }
 @media screen and (min-width: 768px) {
-    .blog .blog-inner {
-        padding: 60px 0 100px;
+    .blog {
+        padding: 100px 0 100px;
     }
     .blog .follow-text {
         font-size: 32px;
@@ -122,9 +122,6 @@
     }
 }
 @media screen and (min-width: 1280px){
-    .blog .blog-inner {
-        padding: 122px 0 100px;
-    }
     .blog .follow {
         margin-top: 51px;
     }
@@ -140,7 +137,7 @@
     }
     .blog .my-slick-prev,
     .blog .my-slick-next {
-        font-size: 40px;
+        font-size: 32px;
     }
 }
 
