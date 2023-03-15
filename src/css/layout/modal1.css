@@ -199,12 +199,19 @@
     position: relative;
 }
 
-.blog-field-icons {
+.blog-field-icons{
     position: absolute;
-    top: 22px;
-    right: 10px;
+    top: 15px;
+    right: 8px;
     opacity: 0;
     transition: opacity var(--main-trans);
+}
+@media screen and (min-width: 768px){
+    .blog-field-icons{
+        top: 23px;
+        right: 10px;
+        
+    }
 }
 
 .blog-field-icons.store-name-field:focus,
