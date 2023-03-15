@@ -12,7 +12,8 @@
         ./img/hero/hero-img-mobile.png    145w,
         ./img/hero/hero-img-mobile@2x.png 290w,
         ./img/hero/hero-img-tablet.png    390w,
-        ./img/hero/hero-img-tablet@2x.png 670w"
+        ./img/hero/hero-img-tablet@2x.png 670w
+      "
       sizes="(min-width:768px) 390px,(max-width:767px) 145px, 100vw"
       class="hero-image_adaptive"
       src="./img/hero/image_home page.png"
@@ -21,7 +22,8 @@
     />
 
     <button
-      class="hero-button"
+      class="hero-button js-open-modal"
+      data-modal="1"
       type="button"
       style="--shift-from-x: 0; --shift-to-x: 25px; --shift-to-y: 170px"
     >
@@ -58,9 +60,7 @@
     </button>
     <div class="img-transition">
       <img
-        srcset="
-          ./img/hero/hero-img.jpg    1280w,
-          ./img/hero/hero-img@2x.jpg 2560w"
+        srcset="./img/hero/hero-img.jpg 1280w, ./img/hero/hero-img@2x.jpg 2560w"
         sizes="(min-width:1280px) 1280px, 100vw"
         src="./img/hero/hero-img.jpg"
         alt="Flower on a grey background"

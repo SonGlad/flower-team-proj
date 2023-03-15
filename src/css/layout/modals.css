@@ -1,0 +1,20 @@
+.backdrop {
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+}
+.modal {
+  opacity: 0;
+  visibility: hidden;
+}
+.modal.active,
+.backdrop.active {
+  opacity: 1;
+  visibility: visible;
+}
