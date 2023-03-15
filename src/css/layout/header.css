@@ -122,6 +122,7 @@
 
     .header {
         background-color: transparent;
+        transition: background-color var(--main-trans);
     }
 
     .header {
@@ -144,4 +145,8 @@
     .logo-header {
         animation: color-change 1000ms ease-out 1500ms both;
     }
+}
+.header-bg{
+    background-color: rgba(61, 58, 58, 0.7);
+    transition: background-color var(--main-trans);
 }
