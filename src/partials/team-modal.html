@@ -47,8 +47,10 @@
 
 <div class="team-modal-container modal" data-modal="4">
   <button class="team-modal-close js-modal-close">
+    <!-- div не можна використовувати як дочірній елемент button -->
     <div class="leftright"></div>
     <div class="rightleft"></div>
+    <!-- label не повинен відображатися як нащадок елемента button -->
     <label class="team-modal-label">close</label>
   </button>
   <strong class="modal-title"
@@ -57,61 +59,102 @@
   <ul class="team-modal">
     <li class="team-modal-item">
       <div class="img-wrapper">
-        <img src="./img/team-modal/oleg.jpg" class="team-modal-img" alt="oleg photo" width="150"/>
+        <img
+          src="./img/team-modal/oleg.jpg"
+          class="team-modal-img"
+          alt="oleg photo"
+          width="150"
+        />
       </div>
-      <h3 class="team-title">Олег <br/>Кошевий</h3>
+      <h3 class="team-title">Олег <br />Кошевий</h3>
       <p class="team-paragraph">Team Lead</p>
     </li>
     <li class="team-modal-item">
       <div class="img-wrapper">
-        <img src="./img/team-modal/vova.jpg" class="team-modal-img" alt="vova photo" width="150"/>
+        <img
+          src="./img/team-modal/vova.jpg"
+          class="team-modal-img"
+          alt="vova photo"
+          width="150"
+        />
       </div>
       <h1 class="team-title">Володимир Біліченко</h1>
       <p class="team-paragraph">Scrum master</p>
     </li>
     <li class="team-modal-item">
       <div class="img-wrapper">
-        <img src="./img/team-modal/misha.jpg" class="team-modal-img" alt="misha photo" width="150"/>
+        <img
+          src="./img/team-modal/misha.jpg"
+          class="team-modal-img"
+          alt="misha photo"
+          width="150"
+        />
       </div>
-      <h3 class="team-title"> Михайло <br/>Міхєєнко</h3>
-      <p class="team-paragraph">Розробник</p>
-    </li>
-    <li class="team-modal-item">
-      <div class="img-wrapper">
-        <img src="./img/team-modal/dima.jpg" class="team-modal-img" alt="dima photo" width="150"/>
-      </div>
-      <h3 class="team-title">Дмитро <br/>Пустоляков</h3>
-      <p class="team-paragraph">Розробник</p>
-    </li>
-    <li class="team-modal-item">
-      <div class="img-wrapper">
-        <img src="./img/team-modal/illya.jpg" class="team-modal-img" alt="illya photo" width="150"/>
-      </div>
-      <h3 class="team-title">Ілля <br/>Палатов</h3>
+      <h3 class="team-title">Михайло <br />Міхєєнко</h3>
       <p class="team-paragraph">Розробник</p>
     </li>
     <li class="team-modal-item">
       <div class="img-wrapper">
         <img
-          src="./img/team-modal/andrii.jpg" class="team-modal-img" alt="andrii photo" width="150"/>
+          src="./img/team-modal/dima.jpg"
+          class="team-modal-img"
+          alt="dima photo"
+          width="150"
+        />
       </div>
-      <h3 class="team-title">Андрій <br/>Пізнюр</h3>
+      <h3 class="team-title">Дмитро <br />Пустоляков</h3>
       <p class="team-paragraph">Розробник</p>
     </li>
     <li class="team-modal-item">
       <div class="img-wrapper">
-        <img src="./img/team-modal/anna.jpg" class="team-modal-img" alt="anna photo" width="150"/>
+        <img
+          src="./img/team-modal/illya.jpg"
+          class="team-modal-img"
+          alt="illya photo"
+          width="150"
+        />
       </div>
-      <h3 class="team-title">Анна <br/>Тимошик</h3>
+      <h3 class="team-title">Ілля <br />Палатов</h3>
       <p class="team-paragraph">Розробник</p>
     </li>
     <li class="team-modal-item">
       <div class="img-wrapper">
-        <img src="./img/team-modal/sasha.jpg" class="team-modal-img" alt="sasha photo" width="150"/>
+        <img
+          src="./img/team-modal/andrii.jpg"
+          class="team-modal-img"
+          alt="andrii photo"
+          width="150"
+        />
+      </div>
+      <h3 class="team-title">Андрій <br />Пізнюр</h3>
+      <p class="team-paragraph">Розробник</p>
+    </li>
+    <li class="team-modal-item">
+      <div class="img-wrapper">
+        <img
+          src="./img/team-modal/anna.jpg"
+          class="team-modal-img"
+          alt="anna photo"
+          width="150"
+        />
+      </div>
+      <h3 class="team-title">Анна <br />Тимошик</h3>
+      <p class="team-paragraph">Розробник</p>
+    </li>
+    <li class="team-modal-item">
+      <div class="img-wrapper">
+        <img
+          src="./img/team-modal/sasha.jpg"
+          class="team-modal-img"
+          alt="sasha photo"
+          width="150"
+        />
       </div>
       <h3 class="team-title">Олександр<br />Рик</h3>
       <p class="team-paragraph">Розробник</p>
     </li>
   </ul>
-  <p class="modal-desc">Команда "IREX" дякує GoIT за чудовий курс з HTML & CSS!</p>
+  <p class="modal-desc">
+    Команда "IREX" дякує GoIT за чудовий курс з HTML & CSS!
+  </p>
 </div>
