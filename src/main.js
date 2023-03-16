@@ -6,5 +6,6 @@ import "./js/team-modal"
 import "./js/modals"
 import "./js/modal-blog"
 import "./js/header-scroll"
+import "./js/store.js"
 
 
