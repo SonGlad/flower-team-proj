@@ -9,20 +9,23 @@
       <source
         media="(min-width:1280px)"
         srcset="
-          ./img/blog/blog-modal/blog-modal-img-desc-1x.png 1x,
-          ./img/blog/blog-modal/blog-modal-img-desc-2x.png 2x"
+          ./img/blog/blog-modal/blog-modal-img-desc-1x.png,
+          ./img/blog/blog-modal/blog-modal-img-desc-2x.png
+        "
       />
       <source
         media="(min-width:768px)"
         srcset="
-          ./img/blog/blog-modal/blog-modal-img-tab-1x.png 1x,
-          ./img/blog/blog-modal/blog-modal-img-tab-2x.png 2x"
+          ./img/blog/blog-modal/blog-modal-img-tab-1x.png,
+          ./img/blog/blog-modal/blog-modal-img-tab-2x.png
+        "
       />
       <source
         media="(max-width:767px)"
         srcset="
-          ./img/blog/blog-modal/blog-modal-img-mob-1x.png 1x,
-          ./img/blog/blog-modal/blog-modal-img-mob-2x.png 2x"
+          ./img/blog/blog-modal/blog-modal-img-mob-1x.png,
+          ./img/blog/blog-modal/blog-modal-img-mob-2x.png
+        "
       />
       <img
         src="./img/blog/blog-modal/blog-modal-img-mob-1x.png"
@@ -39,33 +42,33 @@
     </p>
 
     <form>
-      <label class="title-of-form style-for-email" for="user_email_blog"
-        >Email</label
-      >
-      <div class="icon-position">
-        <input
-          class="blog-modal-field"
-          type="email"
-          name="user_email"
-          id="user_email_blog"
-          placeholder="Your email"
-          required
-        />
-        <svg
-          class="blog-field-icons blog-field-icons-ok"
-          width="20"
-          height="20"
-        >
-          <use href="./img/icons/icons.svg#icon-ok_svg"></use>
-        </svg>
-        <svg
-          class="blog-field-icons blog-field-icons-error"
-          width="20"
-          height="20"
-        >
-          <use href="./img/icons/icons.svg#icon-error-logo"></use>
-        </svg>
-      </div>
+      <label class="title-of-form-two style-for-email" for="user_email_blog">
+        <div class="icon-position">
+          <input
+            class="blog-modal-field"
+            type="email"
+            name="user_email"
+            id="user_email_blog"
+            placeholder="Your email"
+            required
+          />
+          <svg
+            class="blog-field-icons blog-field-icons-ok"
+            width="20"
+            height="20"
+          >
+            <use href="./img/icons/icons.svg#icon-ok_svg"></use>
+          </svg>
+          <svg
+            class="blog-field-icons blog-field-icons-error"
+            width="20"
+            height="20"
+          >
+            <use href="./img/icons/icons.svg#icon-error-logo"></use>
+          </svg>
+          <span class="title-email-form-two">Email</span>
+        </div>
+      </label>
       <button
         class="btn-common blog-modal-btn js-modal-close"
         type="submit"
