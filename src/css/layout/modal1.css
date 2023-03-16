@@ -61,14 +61,14 @@
   font-weight: 500;
   font-size: 12px;
   line-height: calc(15 / 12);
-  margin-bottom: 18px;
+  margin-bottom: 38px;
   color: #5c5c5c;
 }
 @media screen and (min-width: 768px) {
   .store-modal-txt {
     font-size: 16px;
     line-height: calc(20 / 16);
-    margin-bottom: 32px;
+    margin-bottom: 57px;
   }
 }
 .modal-store-content {
@@ -99,7 +99,7 @@
   font-size: 12px;
   line-height: calc(15 / 12);
   margin-top: 8px;
-  margin-bottom: 14px;
+  margin-bottom: 34px;
   padding: 0px 34px 0 12px;
   transition: border-color var(--main-trans);
 }
@@ -107,7 +107,7 @@
 @media screen and (min-width: 768px) {
   .store-name-field {
     height: 49px;
-    margin-bottom: 24px;
+    margin-bottom: 49px;
     font-size: 14px;
     line-height: calc(17 / 14);
     padding: 0px 39px 0px 16px;
@@ -212,11 +212,16 @@
   border-color: var(--color-input-green);
   transition: border-color var(--main-trans);
 }
+.store-name-field:not(:placeholder-shown):required:valid ~ .title-name-form{
+ color: var(--color-input-green);
+}
 .store-name-field:not(:placeholder-shown):required:invalid {
   border-color: var(--color-input-red);
   transition: border-color var(--main-trans);
 }
-
+.store-name-field:not(:placeholder-shown):required:invalid ~ .title-name-form{
+  color: var(--color-input-red);
+}
 .blog-field-icons.store-email-field:focus,
 .store-email-field:focus-visible {
   border-color: rgba(17, 17, 17, 0.7);
@@ -227,12 +232,16 @@
   border-color: var(--color-input-green);
   transition: border-color var(--main-trans);
 }
-
+.store-email-field:not(:placeholder-shown):required:valid ~ .title-email-form{
+  color: var(--color-input-green);
+}
 .store-email-field:not(:placeholder-shown):required:invalid {
   border-color: var(--color-input-red);
   transition: border-color var(--main-trans);
 }
-
+.store-email-field:not(:placeholder-shown):required:invalid ~ .title-email-form {
+  color: var(--color-input-red); 
+}
 .store-name-field:not(:placeholder-shown):required:valid
   + .blog-field-icons-ok {
   opacity: 1;
@@ -255,4 +264,50 @@
   ~ .blog-field-icons-error {
   opacity: 1;
   transition: opacity var(--main-trans);
+}
+
+.title-name-form{
+  position: absolute;
+
+  right: 201px;
+  top: -14px;
+
+  font-weight: 500;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+  
+  color: #5C5C5C;
+}
+@media screen and (min-width:768px) {
+.title-name-form{
+  right: 367px;
+  top: -18px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+}
+  
+}
+.title-email-form{
+  position: absolute;
+
+  right: 204px;
+  top: -14px;
+
+  font-weight: 500;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+
+  color: #5C5C5C;
+}
+@media screen and (min-width:768px) {
+.title-email-form{
+    right: 370px;
+    top: -18px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(20 / 16);
+  }
 }
