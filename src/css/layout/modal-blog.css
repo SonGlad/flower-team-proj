@@ -55,9 +55,6 @@
     width: 24px;
     height: 24px;
   }
-  .blog-modal-btn-close:hover {
-    scale: 1.2;
-  }
 }
 @media screen and (min-width: 768px) {
   .modal-closed-icon {

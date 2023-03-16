@@ -39,10 +39,6 @@
   .thank-modal-btn-close {
     top: 24px;
     right: 24px;
-    
-  }
-  .thank-modal-btn-close:hover {
-    scale: 1.2;
   }
 }
 
