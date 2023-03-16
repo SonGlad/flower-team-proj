@@ -259,3 +259,6 @@
   /* animation-delay: 15s; */
   animation-name: backInUp;
 }
+span{
+  display: inline;
+}
