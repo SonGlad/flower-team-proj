@@ -9,6 +9,7 @@
     padding-top: 16px;
 }
 
+
 .container-header {
     display: flex;
     align-items: center;
@@ -120,6 +121,7 @@
     }
 
     .header {
+        padding-top: 28px;
         background-color: transparent;
         transition: background-color var(--main-trans);
     }

@@ -6,9 +6,18 @@
   width: 100%;
   height: 100%;
   opacity: 0;
-  background: rgba(0, 0, 0, 0.3);
   pointer-events: none;
+  background-color: rgba(46, 47, 66, 0.4);
+  transition: opacity var(--main-trans), visibility var(--main-trans);
 }
+
+.backdrop.js-backdrop-modal{
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition-delay: 150ms;
+}
+
 .modal {
   opacity: 0;
   visibility: hidden;

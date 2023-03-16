@@ -5,12 +5,20 @@
   transform: translate(-50%, -50%);
   width: 272px;
   min-height: 380px;
-  background-color: #fcfcfc;
-  z-index: 30;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  transition: transform 150ms ease 50ms, opacity 150ms ease 50ms;
+  background-color: var(--color-white);
+  z-index: 100;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 
+  0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: transform var(--main-trans), opacity var(--main-trans);
+  transition-delay: 150ms;
 }
+
+/* .backdrop.js-modal-close .blog-modal{
+  transform: scale(0.75) translate(-65%, -65%);
+  opacity: 0;
+  transition-delay: 0ms;
+} */
+
 @media screen and (min-width: 768px) {
   .blog-modal {
     width: 588px;

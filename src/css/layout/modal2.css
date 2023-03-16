@@ -2,14 +2,15 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  z-index: 10000;
+  z-index: 999;
   transform: translate(-50%, -50%);
   width: 272px;
   min-height: 357px;
-  background-color: #fcfcfc;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  transition: transform 150ms ease 50ms, opacity 150ms ease 50ms;
+  background-color: var( --color-white);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 
+  0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: transform var(--main-trans), opacity var(--main-trans);
+  transition-delay: 150ms;
 }
 @media screen and (min-width: 768px) {
   .thank-u-modal {
@@ -38,11 +39,10 @@
   .thank-modal-btn-close {
     top: 24px;
     right: 24px;
-    scale: 1.2;
+    
   }
   .thank-modal-btn-close:hover {
-    width: 25px;
-    height: 25px;
+    scale: 1.2;
   }
 }
 
