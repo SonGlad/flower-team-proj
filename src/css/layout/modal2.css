@@ -43,12 +43,12 @@
 }
 
 .thank-modal-content {
-  padding: 44px 16px 32px 16px;
+  padding: 44px 16px 44px 16px;
 }
 
 @media screen and (min-width: 768px) {
   .thank-modal-content {
-    padding: 54px 32px 54px 32px;
+    padding: 64px 32px 64px 32px;
   }
 }
 .thank-modal-title {
