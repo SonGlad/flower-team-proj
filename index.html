@@ -4,26 +4,66 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/flower-team-proj/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="We are flower-studio you can buy flowers"
+    />
 
     <title>Flower Studio</title>
 
     <!-- croll-to-top Favicon -->
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/flower-team-proj/assets/apple-touch-icon-f28c6a45.png"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfnAwoUFAmj1X9zAAAC30lEQVRIx9XTX2jVdRgG8M/5nbOds46+m2wubckaimCZhakEI6XWXSFYkBcWeBWJ0b+V3UUXBVlkeBFdyRISBG+iiIUEXlkQ3Uhl+K/Jtqa2YcfThsfjdn5duLRtnrGbiN7L53m/7/O+7/N9+a8jMz8dkNTJStXILUBkt8dNzUGzjvp4YQXW23pbfIyFFfjNKZNz0JyRhe5gscJtyYo/FyD/r0fmZqPhbh0CJYOGVCjfGqOgU6dw3UUDRqXlvwsEWQ/YpscqLRpQNeYHB3ytCoqe8JwNWjVITRjwlT6nbwhkosNLdmqXuuKScQ2Wapc17kPvqbjHO55WMG5YSaPl7pQ44y1HTJVl4imfKvjOEd8aUZFo86iXrVGx2zf6PKbssENOmZDTrscu9yt5xUHE4tgfL0Zz3JgVIcRDcSrSOBFfRBoXY0fkZrCroj/SGIwNQbMoRBIzNhtC9EYatajFtdjdLGazq+OnSONgNNb9QLEpSpFGGseiJeayYlfU4kJsTOoafNkE+FJpNlWGfuctszk37XRWizZF2emcmhVyqPpDl2zMFci7pMu6TJDziB02Wa7gVkcZBRmpkmqdi2mW159T0Ot1LS47a8z1aTK1SLcmNcN1TyaVOJmJ5+3T5JB9zqlIb46w0jEdqrbrn+fop3JeUHRcr9HyP/BgSopGa3zuWrluhcS9OGZ0DtMwrbtVm3kikaA222f0WAo22jXXhRBNESEkfsUWrbOed+uVxbjEG15VnPnVtXrXfkvI5sNmndqczF/Jp3n5jFbbfeQOk5r0KVlji3WumshP5pN8kw5P2usZKx13LhNLfGCnxIDvDZqyzHr3GfS2PdZ602Hv26bRNcNGXFW0wl1yLtnrExUhmuO1+DEqkUYaadTi9/gsHoy2OBFp7AmxKJ6NozEWU9MZ1TgfB+LhGyeYIchot1aXcN0FJ51V1ahbs5+dAUUrrbZM3rghvxgyWd/a/1n8BbnX1gmXa4/DAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTAzLTEwVDIwOjIwOjA5KzAwOjAwPY6+5wAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0wMy0xMFQyMDoyMDowOSswMDowMEzTBlsAAABXelRYdFJhdyBwcm9maWxlIHR5cGUgaXB0YwAAeJzj8gwIcVYoKMpPy8xJ5VIAAyMLLmMLEyMTS5MUAxMgRIA0w2QDI7NUIMvY1MjEzMQcxAfLgEigSi4A6hcRdPJCNZUAAAAASUVORK5CYII="/>
-    <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfnAwoUFAmj1X9zAAABRUlEQVQoz4XRP2hTARgE8N/Le+0zyvtIC6VWsa0gWMRRcHAoiIsgji7ioOAsigWLIA4OgruTUIKLW8XZQXFRIZ1chBbBP4iJaExoa02a5xIH6dDb7uPu4L5jFyT/0+Cw+eE18dXzbIflmMWhIPXay50JVTUDpURqy48kyEzZr/TFNwNUzSq0fNLvSOKUq44bGFFR99BJNx3QM6rhvrUkFk164qPMObc8Ne+Zx9pmLKi5IvLIAiEqUY8yHkQ65BPxIu5ltuQORoFtv/2xYloa0LfibBInXDdlU6k0Z8Yb3WHNUmE9iYZ37vqJvjuuueCVf98Z2K6Ys+xDp61tw7hRZ3Q1O01NLZt+pflF+7zNe2ouuaxr1rTP+cC48xY0kjjttqrv9ljTM+mRGw5ZN6KnbikJxhxVaHqvprBqryMmbFjVUu62tr/Oj15LxaPGHgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0wMy0xMFQyMDoyMDowOSswMDowMD2OvucAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMDMtMTBUMjA6MjA6MDkrMDA6MDBM0wZbAAAAV3pUWHRSYXcgcHJvZmlsZSB0eXBlIGlwdGMAAHic4/IMCHFWKCjKT8vMSeVSAAMjCy5jCxMjE0uTFAMTIESANMNkAyOzVCDL2NTIxMzEHMQHy4BIoEouAOoXEXTyQjWVAAAAAElFTkSuQmCC"/>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/flower-team-proj/assets/apple-touch-icon-f28c6a45.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfnAwoUFAmj1X9zAAAC30lEQVRIx9XTX2jVdRgG8M/5nbOds46+m2wubckaimCZhakEI6XWXSFYkBcWeBWJ0b+V3UUXBVlkeBFdyRISBG+iiIUEXlkQ3Uhl+K/Jtqa2YcfThsfjdn5duLRtnrGbiN7L53m/7/O+7/N9+a8jMz8dkNTJStXILUBkt8dNzUGzjvp4YQXW23pbfIyFFfjNKZNz0JyRhe5gscJtyYo/FyD/r0fmZqPhbh0CJYOGVCjfGqOgU6dw3UUDRqXlvwsEWQ/YpscqLRpQNeYHB3ytCoqe8JwNWjVITRjwlT6nbwhkosNLdmqXuuKScQ2Wapc17kPvqbjHO55WMG5YSaPl7pQ44y1HTJVl4imfKvjOEd8aUZFo86iXrVGx2zf6PKbssENOmZDTrscu9yt5xUHE4tgfL0Zz3JgVIcRDcSrSOBFfRBoXY0fkZrCroj/SGIwNQbMoRBIzNhtC9EYatajFtdjdLGazq+OnSONgNNb9QLEpSpFGGseiJeayYlfU4kJsTOoafNkE+FJpNlWGfuctszk37XRWizZF2emcmhVyqPpDl2zMFci7pMu6TJDziB02Wa7gVkcZBRmpkmqdi2mW159T0Ot1LS47a8z1aTK1SLcmNcN1TyaVOJmJ5+3T5JB9zqlIb46w0jEdqrbrn+fop3JeUHRcr9HyP/BgSopGa3zuWrluhcS9OGZ0DtMwrbtVm3kikaA222f0WAo22jXXhRBNESEkfsUWrbOed+uVxbjEG15VnPnVtXrXfkvI5sNmndqczF/Jp3n5jFbbfeQOk5r0KVlji3WumshP5pN8kw5P2usZKx13LhNLfGCnxIDvDZqyzHr3GfS2PdZ602Hv26bRNcNGXFW0wl1yLtnrExUhmuO1+DEqkUYaadTi9/gsHoy2OBFp7AmxKJ6NozEWU9MZ1TgfB+LhGyeYIchot1aXcN0FJ51V1ahbs5+dAUUrrbZM3rghvxgyWd/a/1n8BbnX1gmXa4/DAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTAzLTEwVDIwOjIwOjA5KzAwOjAwPY6+5wAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0wMy0xMFQyMDoyMDowOSswMDowMEzTBlsAAABXelRYdFJhdyBwcm9maWxlIHR5cGUgaXB0YwAAeJzj8gwIcVYoKMpPy8xJ5VIAAyMLLmMLEyMTS5MUAxMgRIA0w2QDI7NUIMvY1MjEzMQcxAfLgEigSi4A6hcRdPJCNZUAAAAASUVORK5CYII="
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfnAwoUFAmj1X9zAAABRUlEQVQoz4XRP2hTARgE8N/Le+0zyvtIC6VWsa0gWMRRcHAoiIsgji7ioOAsigWLIA4OgruTUIKLW8XZQXFRIZ1chBbBP4iJaExoa02a5xIH6dDb7uPu4L5jFyT/0+Cw+eE18dXzbIflmMWhIPXay50JVTUDpURqy48kyEzZr/TFNwNUzSq0fNLvSOKUq44bGFFR99BJNx3QM6rhvrUkFk164qPMObc8Ne+Zx9pmLKi5IvLIAiEqUY8yHkQ65BPxIu5ltuQORoFtv/2xYloa0LfibBInXDdlU6k0Z8Yb3WHNUmE9iYZ37vqJvjuuueCVf98Z2K6Ys+xDp61tw7hRZ3Q1O01NLZt+pflF+7zNe2ouuaxr1rTP+cC48xY0kjjttqrv9ljTM+mRGw5ZN6KnbikJxhxVaHqvprBqryMmbFjVUu62tr/Oj15LxaPGHgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0wMy0xMFQyMDoyMDowOSswMDowMD2OvucAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMDMtMTBUMjA6MjA6MDkrMDA6MDBM0wZbAAAAV3pUWHRSYXcgcHJvZmlsZSB0eXBlIGlwdGMAAHic4/IMCHFWKCjKT8vMSeVSAAMjCy5jCxMjE0uTFAMTIESANMNkAyOzVCDL2NTIxMzEHMQHy4BIoEouAOoXEXTyQjWVAAAAAElFTkSuQmCC"
+    />
     <link rel="manifest" href="data:application/manifest+json;base64,ewogICAgIm5hbWUiOiAiIiwKICAgICJzaG9ydF9uYW1lIjogIiIsCiAgICAiaWNvbnMiOiBbCiAgICAgICAgewogICAgICAgICAgICAic3JjIjogIi4vYW5kcm9pZC1jaHJvbWUtMTkyeDE5Mi5wbmciLAogICAgICAgICAgICAic2l6ZXMiOiAiMTkyeDE5MiIsCiAgICAgICAgICAgICJ0eXBlIjogImltYWdlL3BuZyIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICAgInNyYyI6ICIuL2FuZHJvaWQtY2hyb21lLTUxMng1MTIucG5nIiwKICAgICAgICAgICAgInNpemVzIjogIjUxMng1MTIiLAogICAgICAgICAgICAidHlwZSI6ICJpbWFnZS9wbmciCiAgICAgICAgfQogICAgXSwKICAgICJ0aGVtZV9jb2xvciI6ICIjZmZmZmZmIiwKICAgICJiYWNrZ3JvdW5kX2NvbG9yIjogIiNmZmZmZmYiLAogICAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIKfQo=" />
-    <link rel="mask-icon" href="/flower-team-proj/assets/safari-pinned-tab-cb3161ad.svg" color="#5bbad5"/>
+    <link
+      rel="mask-icon"
+      href="/flower-team-proj/assets/safari-pinned-tab-cb3161ad.svg"
+      color="#5bbad5"
+    />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
 
     <!-- Favicon -->
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/flower-team-proj/assets/apple-touch-icon-f28c6a45.png"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfnAwoUFAmj1X9zAAAC30lEQVRIx9XTX2jVdRgG8M/5nbOds46+m2wubckaimCZhakEI6XWXSFYkBcWeBWJ0b+V3UUXBVlkeBFdyRISBG+iiIUEXlkQ3Uhl+K/Jtqa2YcfThsfjdn5duLRtnrGbiN7L53m/7/O+7/N9+a8jMz8dkNTJStXILUBkt8dNzUGzjvp4YQXW23pbfIyFFfjNKZNz0JyRhe5gscJtyYo/FyD/r0fmZqPhbh0CJYOGVCjfGqOgU6dw3UUDRqXlvwsEWQ/YpscqLRpQNeYHB3ytCoqe8JwNWjVITRjwlT6nbwhkosNLdmqXuuKScQ2Wapc17kPvqbjHO55WMG5YSaPl7pQ44y1HTJVl4imfKvjOEd8aUZFo86iXrVGx2zf6PKbssENOmZDTrscu9yt5xUHE4tgfL0Zz3JgVIcRDcSrSOBFfRBoXY0fkZrCroj/SGIwNQbMoRBIzNhtC9EYatajFtdjdLGazq+OnSONgNNb9QLEpSpFGGseiJeayYlfU4kJsTOoafNkE+FJpNlWGfuctszk37XRWizZF2emcmhVyqPpDl2zMFci7pMu6TJDziB02Wa7gVkcZBRmpkmqdi2mW159T0Ot1LS47a8z1aTK1SLcmNcN1TyaVOJmJ5+3T5JB9zqlIb46w0jEdqrbrn+fop3JeUHRcr9HyP/BgSopGa3zuWrluhcS9OGZ0DtMwrbtVm3kikaA222f0WAo22jXXhRBNESEkfsUWrbOed+uVxbjEG15VnPnVtXrXfkvI5sNmndqczF/Jp3n5jFbbfeQOk5r0KVlji3WumshP5pN8kw5P2usZKx13LhNLfGCnxIDvDZqyzHr3GfS2PdZ602Hv26bRNcNGXFW0wl1yLtnrExUhmuO1+DEqkUYaadTi9/gsHoy2OBFp7AmxKJ6NozEWU9MZ1TgfB+LhGyeYIchot1aXcN0FJ51V1ahbs5+dAUUrrbZM3rghvxgyWd/a/1n8BbnX1gmXa4/DAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTAzLTEwVDIwOjIwOjA5KzAwOjAwPY6+5wAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0wMy0xMFQyMDoyMDowOSswMDowMEzTBlsAAABXelRYdFJhdyBwcm9maWxlIHR5cGUgaXB0YwAAeJzj8gwIcVYoKMpPy8xJ5VIAAyMLLmMLEyMTS5MUAxMgRIA0w2QDI7NUIMvY1MjEzMQcxAfLgEigSi4A6hcRdPJCNZUAAAAASUVORK5CYII="/>
-    <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfnAwoUFAmj1X9zAAABRUlEQVQoz4XRP2hTARgE8N/Le+0zyvtIC6VWsa0gWMRRcHAoiIsgji7ioOAsigWLIA4OgruTUIKLW8XZQXFRIZ1chBbBP4iJaExoa02a5xIH6dDb7uPu4L5jFyT/0+Cw+eE18dXzbIflmMWhIPXay50JVTUDpURqy48kyEzZr/TFNwNUzSq0fNLvSOKUq44bGFFR99BJNx3QM6rhvrUkFk164qPMObc8Ne+Zx9pmLKi5IvLIAiEqUY8yHkQ65BPxIu5ltuQORoFtv/2xYloa0LfibBInXDdlU6k0Z8Yb3WHNUmE9iYZ37vqJvjuuueCVf98Z2K6Ys+xDp61tw7hRZ3Q1O01NLZt+pflF+7zNe2ouuaxr1rTP+cC48xY0kjjttqrv9ljTM+mRGw5ZN6KnbikJxhxVaHqvprBqryMmbFjVUu62tr/Oj15LxaPGHgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0wMy0xMFQyMDoyMDowOSswMDowMD2OvucAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMDMtMTBUMjA6MjA6MDkrMDA6MDBM0wZbAAAAV3pUWHRSYXcgcHJvZmlsZSB0eXBlIGlwdGMAAHic4/IMCHFWKCjKT8vMSeVSAAMjCy5jCxMjE0uTFAMTIESANMNkAyOzVCDL2NTIxMzEHMQHy4BIoEouAOoXEXTyQjWVAAAAAElFTkSuQmCC"/>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/flower-team-proj/assets/apple-touch-icon-f28c6a45.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfnAwoUFAmj1X9zAAAC30lEQVRIx9XTX2jVdRgG8M/5nbOds46+m2wubckaimCZhakEI6XWXSFYkBcWeBWJ0b+V3UUXBVlkeBFdyRISBG+iiIUEXlkQ3Uhl+K/Jtqa2YcfThsfjdn5duLRtnrGbiN7L53m/7/O+7/N9+a8jMz8dkNTJStXILUBkt8dNzUGzjvp4YQXW23pbfIyFFfjNKZNz0JyRhe5gscJtyYo/FyD/r0fmZqPhbh0CJYOGVCjfGqOgU6dw3UUDRqXlvwsEWQ/YpscqLRpQNeYHB3ytCoqe8JwNWjVITRjwlT6nbwhkosNLdmqXuuKScQ2Wapc17kPvqbjHO55WMG5YSaPl7pQ44y1HTJVl4imfKvjOEd8aUZFo86iXrVGx2zf6PKbssENOmZDTrscu9yt5xUHE4tgfL0Zz3JgVIcRDcSrSOBFfRBoXY0fkZrCroj/SGIwNQbMoRBIzNhtC9EYatajFtdjdLGazq+OnSONgNNb9QLEpSpFGGseiJeayYlfU4kJsTOoafNkE+FJpNlWGfuctszk37XRWizZF2emcmhVyqPpDl2zMFci7pMu6TJDziB02Wa7gVkcZBRmpkmqdi2mW159T0Ot1LS47a8z1aTK1SLcmNcN1TyaVOJmJ5+3T5JB9zqlIb46w0jEdqrbrn+fop3JeUHRcr9HyP/BgSopGa3zuWrluhcS9OGZ0DtMwrbtVm3kikaA222f0WAo22jXXhRBNESEkfsUWrbOed+uVxbjEG15VnPnVtXrXfkvI5sNmndqczF/Jp3n5jFbbfeQOk5r0KVlji3WumshP5pN8kw5P2usZKx13LhNLfGCnxIDvDZqyzHr3GfS2PdZ602Hv26bRNcNGXFW0wl1yLtnrExUhmuO1+DEqkUYaadTi9/gsHoy2OBFp7AmxKJ6NozEWU9MZ1TgfB+LhGyeYIchot1aXcN0FJ51V1ahbs5+dAUUrrbZM3rghvxgyWd/a/1n8BbnX1gmXa4/DAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTAzLTEwVDIwOjIwOjA5KzAwOjAwPY6+5wAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0wMy0xMFQyMDoyMDowOSswMDowMEzTBlsAAABXelRYdFJhdyBwcm9maWxlIHR5cGUgaXB0YwAAeJzj8gwIcVYoKMpPy8xJ5VIAAyMLLmMLEyMTS5MUAxMgRIA0w2QDI7NUIMvY1MjEzMQcxAfLgEigSi4A6hcRdPJCNZUAAAAASUVORK5CYII="
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfnAwoUFAmj1X9zAAABRUlEQVQoz4XRP2hTARgE8N/Le+0zyvtIC6VWsa0gWMRRcHAoiIsgji7ioOAsigWLIA4OgruTUIKLW8XZQXFRIZ1chBbBP4iJaExoa02a5xIH6dDb7uPu4L5jFyT/0+Cw+eE18dXzbIflmMWhIPXay50JVTUDpURqy48kyEzZr/TFNwNUzSq0fNLvSOKUq44bGFFR99BJNx3QM6rhvrUkFk164qPMObc8Ne+Zx9pmLKi5IvLIAiEqUY8yHkQ65BPxIu5ltuQORoFtv/2xYloa0LfibBInXDdlU6k0Z8Yb3WHNUmE9iYZ37vqJvjuuueCVf98Z2K6Ys+xDp61tw7hRZ3Q1O01NLZt+pflF+7zNe2ouuaxr1rTP+cC48xY0kjjttqrv9ljTM+mRGw5ZN6KnbikJxhxVaHqvprBqryMmbFjVUu62tr/Oj15LxaPGHgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0wMy0xMFQyMDoyMDowOSswMDowMD2OvucAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMDMtMTBUMjA6MjA6MDkrMDA6MDBM0wZbAAAAV3pUWHRSYXcgcHJvZmlsZSB0eXBlIGlwdGMAAHic4/IMCHFWKCjKT8vMSeVSAAMjCy5jCxMjE0uTFAMTIESANMNkAyOzVCDL2NTIxMzEHMQHy4BIoEouAOoXEXTyQjWVAAAAAElFTkSuQmCC"
+    />
     <link rel="manifest" href="data:application/manifest+json;base64,ewogICAgIm5hbWUiOiAiIiwKICAgICJzaG9ydF9uYW1lIjogIiIsCiAgICAiaWNvbnMiOiBbCiAgICAgICAgewogICAgICAgICAgICAic3JjIjogIi4vYW5kcm9pZC1jaHJvbWUtMTkyeDE5Mi5wbmciLAogICAgICAgICAgICAic2l6ZXMiOiAiMTkyeDE5MiIsCiAgICAgICAgICAgICJ0eXBlIjogImltYWdlL3BuZyIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICAgInNyYyI6ICIuL2FuZHJvaWQtY2hyb21lLTUxMng1MTIucG5nIiwKICAgICAgICAgICAgInNpemVzIjogIjUxMng1MTIiLAogICAgICAgICAgICAidHlwZSI6ICJpbWFnZS9wbmciCiAgICAgICAgfQogICAgXSwKICAgICJ0aGVtZV9jb2xvciI6ICIjZmZmZmZmIiwKICAgICJiYWNrZ3JvdW5kX2NvbG9yIjogIiNmZmZmZmYiLAogICAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIKfQo=" />
-    <link rel="mask-icon" href="/flower-team-proj/assets/safari-pinned-tab-cb3161ad.svg" color="#5bbad5"/>
+    <link
+      rel="mask-icon"
+      href="/flower-team-proj/assets/safari-pinned-tab-cb3161ad.svg"
+      color="#5bbad5"
+    />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
 
@@ -31,20 +71,43 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:ital,wght@0,400;0,600;0,700;1,500&display=swap" rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:ital,wght@0,400;0,600;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@500;700&family=Montserrat:ital,wght@0,400;0,600;0,700;1,500&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@500;700&family=Montserrat:ital,wght@0,400;0,600;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     
 
     <!-- Js delivery slick -->
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
 
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
     <script type="module" crossorigin src="/flower-team-proj/assets/index-4eef12f4.js"></script>
     <link rel="stylesheet" href="/flower-team-proj/assets/index-f98fee15.css">
   </head>
@@ -398,7 +461,7 @@
 
     <header class="header header-js header-bg" id="header">
   <div class="container container-header">
-    <a class="header-link-logo" href="#">
+    <a class="header-link-logo" aria-label="logo" href="#">
       <svg class="logo-header" width="45" height="35">
         <use href="/flower-team-proj/assets/icons-c06ad47e.svg#icon-mobile_logo"></use>
       </svg>
@@ -424,13 +487,18 @@
     </nav>
 
     <address class="call">
-      <a href="#">
+      <a href="#" aria-label="tel-icon">
         <svg class="phone-icon" width="20" height="20">
           <use href="/flower-team-proj/assets/icons-c06ad47e.svg#icon-mob_tel"></use>
         </svg>
       </a>
     </address>
-    <button type="button" class="mobile-menu-open js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+    <button
+      type="button"
+      class="mobile-menu-open js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
       <svg class="mobile-menu-burger" width="24" height="24">
         <use href="/flower-team-proj/assets/icons-c06ad47e.svg#icon-burger"></use>
       </svg>
@@ -463,6 +531,7 @@
     <button
       class="hero-button js-open-modal"
       data-modal="1"
+      aria-label="button-shop-now"
       type="button"
       style="--shift-from-x: 0; --shift-to-x: 25px; --shift-to-y: 170px"
     >
@@ -812,7 +881,7 @@
     <div class="footer-logo-box">
       <ul class="footer-nav-list footer-list-logo">
         <li class="footer-logo">
-          <a href="#" class="footer-logo-anemone">
+          <a href="#" aria-label="logo" class="footer-logo-anemone">
             <svg class="footer-logo-link" width="73" height="57">
               <use href="/flower-team-proj/assets/icons-c06ad47e.svg#icon-big_logo"></use>
             </svg>
@@ -834,7 +903,11 @@
             <a href="#store-section" class="footer-nav-item">Store</a>
           </li>
           <li class="footer-nav-link">
-            <a href="#delivery-section" class="footer-nav-item last-footer-nav-item">Delivery</a>
+            <a
+              href="#delivery-section"
+              class="footer-nav-item last-footer-nav-item"
+              >Delivery</a
+            >
           </li>
         </ul>
       </nav>
@@ -866,14 +939,14 @@
     <div class="footer-social">
       <ul class="social-networks list">
         <li class="social-networks-item">
-          <a href="#" class="social-networks-link link">
+          <a href="#" aria-label="icon-fb" class="social-networks-link link">
             <svg class="social-networks-icon" width="28" height="28">
               <use href="/flower-team-proj/assets/icons-c06ad47e.svg#icon-facebook"></use>
             </svg>
           </a>
         </li>
         <li class="social-networks-item">
-          <a href="#" class="social-networks-link link">
+          <a href="#" aria-label="icon-inst" class="social-networks-link link">
             <svg class="social-networks-icon" width="28" height="28">
               <use href="/flower-team-proj/assets/icons-c06ad47e.svg#icon-instagram"></use>
             </svg>
