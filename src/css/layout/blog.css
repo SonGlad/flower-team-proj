@@ -50,6 +50,12 @@
     border: none;
     color: var(--color-black);
     background-color: transparent;
+    transition: color var(--main-trans);
+}
+.blog .my-slick-prev:active,
+.blog .my-slick-next:active{
+    color: var(--color-decor);
+    transition: color var(--main-trans);
 }
 .blog .my-slick-next{
     right: 100px;
