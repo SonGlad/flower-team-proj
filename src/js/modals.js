@@ -87,3 +87,8 @@ document.addEventListener('DOMContentLoaded', function () {
     document.body.classList.remove('modal-open');
   });
 }); // end ready
+ document
+    .querySelector('.js-thank-modal-btn')
+    .addEventListener('click', () => {
+      document.querySelector('.store-modal').classList.remove('active');
+    });
