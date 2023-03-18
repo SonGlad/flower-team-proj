@@ -204,9 +204,6 @@
   transition: border-color var(--main-trans);
 }
 
-/* .style-for-name:not(:placeholder-shown):required:valid, .style-for-name {
-    color: var(--color-input-green);
-} */
 
 .store-name-field:not(:placeholder-shown):required:valid {
   border-color: var(--color-input-green);

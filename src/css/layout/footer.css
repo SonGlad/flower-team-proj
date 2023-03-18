@@ -129,6 +129,14 @@
 .footer-adress {
     margin-top: 12px;
 }
+.footer-adress:hover{
+    color: var(--color-decor-hover);
+    transition: color var(--main-trans);
+}
+.footer-adress:focus{
+    color: var(--color-decor-focus);
+    transition: color var(--main-trans);
+}
 
 @media  (min-width: 768px){
     .opening-times{

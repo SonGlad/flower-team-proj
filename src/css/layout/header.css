@@ -25,15 +25,16 @@
   fill: var(--color-phone);
 }
 /* ===shake animation for phone icon==== */
+
 @keyframes shake-lr {
   0%,
   100% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
     transform: scale(1);
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-  
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+      
   }
   10% {
     -webkit-transform: rotate(8deg);
@@ -65,7 +66,7 @@
 
 .call:focus,
 .call:hover {
-  animation: shake-lr 1200ms cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s infinite both;
+  animation: shake-lr 1200ms cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
 }
 
 .mobile-menu-open {
@@ -80,6 +81,7 @@
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 /* ===tablet==== */
 
 @media screen and (min-width: 768px) {
@@ -173,7 +175,7 @@
   }
 
   .menu-item {
-    animation: color-change 1000ms ease-out 1500ms both;
+    animation: color-change 0ms ease-out 1500ms both;
   }
 
   .phone-icon {
