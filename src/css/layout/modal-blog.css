@@ -14,12 +14,11 @@
 }
 
 
-.backdrop.js-backdrop-modal:not(.active)  .blog-modal{
-  transition: transform var(--main-trans), opacity var(--main-trans);
-  transform: scale(0.75) translate(-65%, -65%);
+/* .backdrop.js-backdrop-modal:not(.active){
+  transition: transform scale(0.75) translate(-65%, -65%);
   opacity: 0;
   transition-delay: 0ms;
-}
+} */
 
 @media screen and (min-width: 768px) {
   .blog-modal {
