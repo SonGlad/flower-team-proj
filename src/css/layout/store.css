@@ -1,8 +1,10 @@
 /* Reset Styles*/
+
 :root {
   --store-indent: 16px;
   --store-value: 2;
 }
+
 @keyframes move-right {
   0% {
     transform: translateX(-110%);
@@ -13,7 +15,9 @@
     opacity: 1;
   }
 }
+
 /* Section Styles */
+
 .store-section {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -25,7 +29,9 @@
     padding-bottom: 100px;
   }
 }
+
 /* Container Styles */
+
 @media screen and (min-width: 768px) {
   .store-container {
     max-width: 768px;
@@ -38,6 +44,7 @@
 }
 
 /* Title Styles*/
+
 .store-title {
   margin-bottom: 32px;
 }
@@ -55,6 +62,7 @@
 }
 
 /* Store List Styles*/
+
 .store-list {
   display: flex;
   flex-wrap: wrap;
@@ -84,7 +92,9 @@
     --store-indent: 32px;
   }
 }
+
 /* Text-content Styles */
+
 .store-content {
   margin-top: 12px;
 }
@@ -138,7 +148,9 @@
     gap: 16px;
   }
 }
+
 /* Item name line Styles */
+
 @media screen and (min-width: 768px) {
   .store-line::after {
     display: block;
@@ -149,7 +161,9 @@
     animation: move-right 1500ms ease-out 500ms both;
   }
 }
+
 /* Desc Styles */
+
 .store-item-desc {
   font-weight: 600;
   font-size: 12px;
@@ -173,6 +187,7 @@
 }
 
 /* Store Button Styles*/
+
 .store-btn {
   display: block;
   font-weight: 500;

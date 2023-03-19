@@ -24,6 +24,7 @@
 .phone-icon {
   fill: var(--color-phone);
 }
+
 /* ===shake animation for phone icon==== */
 
 @keyframes shake-lr {
@@ -85,14 +86,8 @@
 /* ===tablet==== */
 
 @media screen and (min-width: 768px) {
-  .mobile-menu {
-    display: none;
-  }
-
-  .mobile-menu-open {
-    display: none;
-  }
-
+  .mobile-menu,
+  .mobile-menu-open,
   .menu-container {
     display: none;
   }
@@ -127,14 +122,12 @@
     line-height: calc(24 / 20);
     transition: color var(--main-trans);
   }
-  .header-link:hover {
+  .header-link:hover,
+  .header-link:focus {
     color: var(--color-decor-hover);
     transition: color var(--main-trans);
   }
-  .header-link:focus {
-    color: var(--color-decor-focus);
-    transition: color var(--main-trans);
-  }
+
   .header-link.current:active {
     color: var(--color-decor-hover);
   }
@@ -149,8 +142,8 @@
   }
 
   to {
-    color: #fff;
-    fill: #fff;
+    color: var(--color-white);
+    fill: var(--color-white);
   }
 }
 
@@ -160,32 +153,26 @@
   }
 
   .header {
-    padding-top: 28px;
-    background-color: transparent;
-    transition: background-color var(--main-trans);
-  }
-
-  .header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 999;
     width: 100%;
     padding: 0;
+    background-color: transparent;
+    transition: background-color var(--main-trans);
   }
 
   .menu-item {
     animation: color-change 0ms ease-out 1500ms both;
   }
 
-  .phone-icon {
-    animation: color-change 1000ms ease-out 1500ms both;
-  }
-
+  .phone-icon,
   .logo-header {
     animation: color-change 1000ms ease-out 1500ms both;
   }
 }
+
 .header-bg {
   background-color: rgba(61, 58, 58, 0.7);
   transition: background-color var(--main-trans);

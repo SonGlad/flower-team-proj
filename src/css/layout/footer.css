@@ -1,7 +1,7 @@
 
 .footer {
-    color: white;
-    background-color: black;
+    color: var(--color-white);
+    background-color: var(--color-black);
     padding: 32px 0;
     margin: 0 auto;
     min-width: 320px;
@@ -42,7 +42,7 @@
 .footer-logo-link {
     width: 73px;
     height: 57px;
-    fill: white;
+    fill: var(--color-white);
 }
 .footer-block-name {
     font-family: "Inter";
@@ -178,7 +178,7 @@
 }
 
 .social-networks-icon {
-    stroke:  white;
+    stroke: var(--color-white);
     transition: stroke var(--main-trans);
 }
 .social-networks-icon:hover{

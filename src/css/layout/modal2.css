@@ -6,7 +6,7 @@
   transform: translate(-50%, -50%);
   width: 272px;
   min-height: 372px;
-  background-color: var( --color-white);
+  background-color: var(--color-white);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 
   0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -35,6 +35,7 @@
 .thank-modal-btn-close:hover {
   scale: 1.2;
 }
+
 @media screen and (min-width: 768px) {
   .thank-modal-btn-close {
     top: 24px;
@@ -43,14 +44,15 @@
 }
 
 .thank-modal-content {
-  padding: 44px 16px 44px 16px;
+  padding: 44px 16px;
 }
 
 @media screen and (min-width: 768px) {
   .thank-modal-content {
-    padding: 64px 32px 64px 32px;
+    padding: 64px 32px;
   }
 }
+
 .thank-modal-title {
   font-weight: 600;
   font-size: 20px;
@@ -67,6 +69,7 @@
     margin-bottom: 16px;
   }
 }
+
 .thank-modal-txt {
   font-weight: 500;
   font-size: 12px;
@@ -88,7 +91,7 @@
   font-weight: 600;
   font-size: 14px;
   line-height: calc(17 / 14);
-  padding: 10px 87px 10px 87px;
+  padding: 10px 87px;
   border-radius: 8px;
 }
 
@@ -96,7 +99,7 @@
   .thank-modal-btn {
     font-size: 18px;
     line-height: 22px;
-    padding: 14px 165px 14px 165px;
+    padding: 14px 165px;
   }
 }
 
@@ -116,6 +119,7 @@
   padding-right: 26px;
   padding-left: 26px;
 }
+
 @media screen and (min-width: 768px) {
   .container-for-img-thank {
     padding-right: 25px;
