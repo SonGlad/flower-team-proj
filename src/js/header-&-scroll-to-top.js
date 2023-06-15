@@ -1,7 +1,8 @@
+"use strict"
 let btn_scroll = document.querySelector('.btn_scroll')
     
      // Button Scroll
-
+  document.querySelector('.header-js').classList.remove('header-bg');
   window.onscroll = function () {
     
     if (window.screen.width >= 1280) {
